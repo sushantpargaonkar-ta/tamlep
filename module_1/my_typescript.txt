@@ -1,0 +1,1388 @@
+Script started on Wed Oct  2 09:23:40 2024
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$  [Kpwd
+/Volumes/Passport/Company/TAMLEP/tamlep/module_1
+bash-3.2$ pwd
+/Volumes/Passport/Company/TAMLEP/tamlep/module_1
+bash-3.2$ ls
+logfile			shell-lesson-data
+my_typescript.txt	typescript
+bash-3.2$ ls -F
+logfile			shell-lesson-data/
+my_typescript.txt	typescript
+bash-3.2$ ls -F shell-lesson-data/[K
+exercise-data/		north-pacific-gyre/
+bash-3.2$ echo "General stn[K[Kt[Kyntax of shell command"
+General syntax of shell command
+bash-3.2$ echo "$ ls -F / which is PROMT[K[KMPT COMMAND OPTION ARGUMENT"
+$ ls -F / which is PROMPT COMMAND OPTION ARGUMENT
+bash-3.2$ ls -s
+total 920
+  8 logfile		  0 shell-lesson-data
+  8 my_typescript.txt	904 typescript
+bash-3.2$ ls -S
+typescript		logfile
+my_typescript.txt	shell-lesson-data
+bash-3.2$ l [Ks -s ex[K[Ke[Kshell-lesson-data/exercise-data/
+total 8
+0 alkanes	0 animal-counts	0 creatures	8 numbers.txt	0 writing
+bash-3.2$ ls -s shell-lesson-data/exercise-data/[C[C[C[C[C[C[C[C[C[C[1P shell-lesson-data/exercise-data/[C[C[C[C[C[C[C[C[C[C[C[C[C[CS shell-lesson-data/exercise-data/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+alkanes		creatures	writing		animal-counts	numbers.txt
+bash-3.2$ ls -F /
+Applications/	Volumes/	etc@		sbin/
+Library/	bin/		home@		tmp@
+System/		cores/		opt/		usr/
+Users/		dev/		private/	var@
+bash-3.2$ ls
+logfile			shell-lesson-data
+my_typescript.txt	typescript
+bash-3.2$ mk[K[Kcd shell-lesson-data/
+bash-3.2$ ls north-pacific-gyre/
+NENE01729A.txt	NENE01751B.txt	NENE01971Z.txt	NENE02040A.txt	NENE02043B.txt
+NENE01729B.txt	NENE01812A.txt	NENE01978A.txt	NENE02040B.txt	goodiff.sh
+NENE01736A.txt	NENE01843A.txt	NENE01978B.txt	NENE02040Z.txt	goostats.sh
+NENE01751A.txt	NENE01843B.txt	NENE02018B.txt	NENE02043A.txt
+bash-3.2$ ls north-pacific-gyre/
+NENE01729A.txt  NENE01812A.txt  NENE01978B.txt  NENE02043A.txt
+NENE01729B.txt  NENE01843A.txt  NENE02018B.txt  NENE02043B.txt
+NENE01736A.txt  NENE01843B.txt  NENE02040A.txt  goodiff.sh
+NENE01751A.txt  NENE01971Z.txt  NENE02040B.txt  goostats.sh
+NENE01751B.txt  NENE01978A.txt  NENE02040Z.txt  
+bash-3.2$ ls north-pacific-gyre/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kth-pacific-gyre/G[KG[Kgoo
+ls: north-pacific-gyre/goo: No such file or directory
+bash-3.2$ ls north-pacific-gyre/goo[Ko
+goodiff.sh   goostats.sh  
+bash-3.2$ ls north-pacific-gyre/goo
+goodiff.sh   goostats.sh  
+bash-3.2$ ls north-pacific-gyre/goo=[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ ls north-pacific-gyre/goo[Kgoo[C[C[C[C[C[C[C[C[C[C[Kclear
+[H[2J[3Jbash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cd exercise-data/writing/
+bash-3.2$ mkdir thesis
+bash-3.2$ ls -F
+LittleWomen.txt		haiku.txt		thesis/
+bash-3.2$ cd thesis/
+bash-3.2$ nano draft./[Ktxt
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: draft.txt                           [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: draft.txt                     Modified[27m[3;1HIT;[3;3H [3;3H[3;2H [3;2Ht's[3;6Hnot[3;10H"publish[3;19Hor[3;22Hperish"[3;30Hany[3;34Hmore,[3;38H [3;38H,[4;1HI[4;1H [4;1Hit;s[4;4H [4;4H[4;3H [4;3H's[4;6Hs[4;6H [4;6H"share[4;13Hand[4;17Hthrive".[5;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hdraft.txt                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 3 lines ][27m[1;35H[7m    File: draft.txt                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[5;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ ls
+draft.txt
+bash-3.2$ touch d\[K[Kmy_fol[K[Kile.txt
+bash-3.2$ ls
+draft.txt	my_file.txt
+bash-3.2$ ls -l
+total 8
+-rw-r--r--  1 sushant_p18  staff  65 Oct  2 09:40 draft.txt
+-rw-r--r--  1 sushant_p18  staff   0 Oct  2 09:41 my_file.txt
+bash-3.2$ rm my_file.txt [K
+bash-3.2$ ls
+draft.txt
+bash-3.2$ mv t[K[K[K[Kcd ..
+bash-3.2$ mv thesis/draft.txt thesis/quo[K[Kuotes.txt
+bash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis
+bash-3.2$ cd thesis/
+bash-3.2$ ls
+quotes.txt
+bash-3.2$ cd ..
+bash-3.2$ ls thesis/
+quotes.txt
+bash-3.2$ ls thesis/[K
+quotes.txt
+bash-3.2$ cp q[K[K[K[K;s[K[Kcd thesis/
+bash-3.2$ cp quotes.txt thesis/qi[Kuo[K[K[Kqi[Kuot[Ktations.txt
+cp: thesis/quotations.txt: No such file or directory
+bash-3.2$ cd ..
+bash-3.2$ cd[Kp p[K-r thes[K[K[K[K[K[K[Kthesis/quotes.txt thesis/quotations.txt
+bash-3.2$ cp -r thesis/ [K[K thesis_backup
+bash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis		thesis_backup
+bash-3.2$ ls thesis_backup/
+quotations.txt	quotes.txt
+bash-3.2$ ls thesis thesis_backup/
+thesis:
+quotations.txt	quotes.txt
+
+thesis_backup/:
+quotations.txt	quotes.txt
+bash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis		thesis_backup
+bash-3.2$ rm -i thesis_backup/quotations.txt [K
+remove thesis_backup/quotations.txt? n
+bash-3.2$ rm thesis
+rm: thesis: is a directory
+bash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis		thesis_backup
+bash-3.2$ rm thesis_backup/[K [K-thesis_backuprthesis_backup thesis_backup-thesis_backupithesis_backup thesis_backup[C[C[C[C[C[C[C[C[C[C[C[C[C
+examine files in directory thesis_backup? n
+bash-3.2$ echo "wildcards fr[Kor accessing multiple filesa [K[K[Kes at onece[K[K[Kce"
+wildcards for accessing multiple filees at once
+bash-3.2$ clear
+[H[2J[3Jbash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis		thesis_backup
+bash-3.2$ cd ..
+bash-3.2$ ls
+alkanes		animal-counts	creatures	numbers.txt	writing
+bash-3.2$ cd alkanes/
+bash-3.2$ ls *ethane.pdb
+ethane.pdb	methane.pdb
+bash-3.2$ l [Ks *t*ane.o[Kpdb
+ethane.pdb	methane.pdb	octane.pdb	pentane.pdb
+bash-3.2$ ls *t?ne.*
+octane.pdb	pentane.pdb
+bash-3.2$ ls *t??ne/p[K[K/[K.pdb
+ethane.pdb	methane.pdb
+bash-3.2$ ls than[K[K[K[Kehtna[K[K[K[Kthane.*
+ethane.pdb
+bash-3.2$ echo "Pipes and Filters"
+Pipes and Filters
+bash-3.2$ ;[Kls
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+bash-3.2$ cd [K[K[Kwc cubane.pdb
+      20     156    1158 cubane.pdb
+bash-3.2$ wc *.pdb
+      20     156    1158 cubane.pdb
+      12      84     622 ethane.pdb
+       9      57     422 methane.pdb
+      30     246    1828 octane.pdb
+      21     165    1226 pentane.pdb
+      15     111     825 propane.pdb
+     107     819    6081 total
+bash-3.2$ wc -l *pdb
+      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+bash-3.2$ wc -l *.pdb > lengths.txt
+bash-3.2$ cat el[K[Klengths.txt [K
+      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+bash-3.2$ less lengths.txt [K
+[?1049h[?1h=      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[7mlengths.txt (END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^X^X[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H
+
+
+
+
+
+
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[H[2J[H      20 cubane.pdb
+      12 ethane.pdb
+       9 methane.pdb
+      30 octane.pdb
+      21 pentane.pdb
+      15 propane.pdb
+     107 total
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K[?1l>[?1049lbash-3.2$ sort -n ln[Kn[Kengths.txt [K
+       9 methane.pdb
+      12 ethane.pdb
+      15 propane.pdb
+      20 cubane.pdb
+      21 pentane.pdb
+      30 octane.pdb
+     107 total
+bash-3.2$ sort -n lengths.txt  [K> sor[K[Korted_ke[K[Klengths.txt
+bash-3.2$ head 0n[K[K-n sorted_lengths.txt [K
+head: illegal line count -- sorted_lengths.txt
+bash-3.2$ head -n sorted_lengths.txt1sorted_lengths.txt sorted_lengths.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+       9 methane.pdb
+bash-3.2$ head -n 1 sorted_lengths.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Psorted_lengths.txt[C[C[C[C[C[C[C[C[C[C[14@sort -n lengths.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[C[C[C[C[C[C[C[C[C[C[C
+bash-3.2$ sort -n lengths.txt > lengths.txt[C[C[C[C[C[C[C[C[C[C[5Phead -n 1 sorted_lengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[1Plengths.txt[C[C[C[C[C[C[C[C[C[C[C
+bash-3.2$ echo hello > testfile01.txt
+bash-3.2$ echo hello > testfile01.txt
+bash-3.2$ echo hello >> testfile02.txt
+bash-3.2$ echo hello >> testfile02.txt
+bash-3.2$ ls
+cubane.pdb		octane.pdb		testfile01.txt
+ethane.pdb		pentane.pdb		testfile02.txt
+lengths.txt		propane.pdb
+methane.pdb		sorted_lengths.txt
+bash-3.2$ echo "..[K[K>>;[K"a[K apends[K[K[Knds dara[K[Kta
+>> apends data
+bash-3.2$ cd ..
+bash-3.2$ ls
+alkanes			lengths.txt		testfile01.txt
+animal-counts		numbers.txt		testfile02.txt
+creatures		sorted_lengths.txt	writing
+bash-3.2$ sort -n lengths.txt | head -n 1
+bash-3.2$ cd alkanes/
+bash-3.2$ ls
+cubane.pdb		octane.pdb		testfile01.txt
+ethane.pdb		pentane.pdb		testfile02.txt
+lengths.txt		propane.pdb
+methane.pdb		sorted_lengths.txt
+bash-3.2$ wc -l *p[K.pdb > length.[Ks.txt
+bash-3.2$ sort -n lengths.txt | head -n 1
+       9 methane.pdb
+bash-3.2$ wc -l *.pdb |}[K[K| sort -n
+       9 methane.pdb
+      12 ethane.pdb
+      15 propane.pdb
+      20 cubane.pdb
+      21 pentane.pdb
+      30 octane.pdb
+     107 total
+bash-3.2$ wc -l *.pdb | sort -n | head -n 1
+       9 methane.pdb
+bash-3.2$ cd ../animal-counts/
+bash-3.2$ cat animals.csv | head -n 5 | tail - [Kn 3 | sort -r > final.txt
+bash-3.2$ cut -d , -f 2 animals.csv [K
+deer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+bash-3.2$ cut -d , -f 2 animals.csv[C[C[C[C[C[C[C[C | sort | uniq
+bear
+deer
+fox
+rabbit
+raccoon
+bash-3.2$ cut[K[K[Kcut -d , -f 2 animals.csv | sort | uniq [K[Kq -c | [K[K[K
+   1 bear
+   2 deer
+   1 fox
+   3 rabbit
+   1 raccoon
+bash-3.2$ cut -d , -f 2 animals.csv | sort | uniq -c[C | wc -l
+       5
+bash-3.2$ cut -d , -f 2 animals.csv | sort | uniq -c | wc -l[K[K[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6@sort |[C[C[C[C[C[C[C[C
+   1 bear
+   2 deer
+   1 fox
+   3 rabbit
+   1 raccoon
+bash-3.2$ echo "Nelle's Pipeline: Checking Files"
+Nelle's Pipeline: Checking Files
+bash-3.2$ ls
+animals.csv	final.txt
+bash-3.2$ cd //[K[K.../[K[K/..
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cd north-pacific-gyre/[K
+bash-3.2$ wc -l *.txt
+     300 NENE01729A.txt
+     300 NENE01729B.txt
+     300 NENE01736A.txt
+     300 NENE01751A.txt
+     300 NENE01751B.txt
+     300 NENE01812A.txt
+     300 NENE01843A.txt
+     300 NENE01843B.txt
+     300 NENE01971Z.txt
+     300 NENE01978A.txt
+     300 NENE01978B.txt
+     240 NENE02018B.txt
+     300 NENE02040A.txt
+     300 NENE02040B.txt
+     300 NENE02040Z.txt
+     300 NENE02043A.txt
+     300 NENE02043B.txt
+    5040 total
+bash-3.2$ wc -l *.txt | sort -n | head -n 5
+     240 NENE02018B.txt
+     300 NENE01729A.txt
+     300 NENE01729B.txt
+     300 NENE01736A.txt
+     300 NENE01751A.txt
+bash-3.2$ wc -l *.txt | sort -n | head -n 5[1P[1P[1P[1P[1@t[1@a[1@i[1@l[C[C[C[C[C
+     300 NENE02040B.txt
+     300 NENE02040Z.txt
+     300 NENE02043A.txt
+     300 NENE02043B.txt
+    5040 total
+bash-3.2$ ls *Z.txt
+NENE01971Z.txt	NENE02040Z.txt
+bash-3.2$ echo "Loops"
+Loops
+bash-3.2$ ls
+NENE01729A.txt	NENE01751B.txt	NENE01971Z.txt	NENE02040A.txt	NENE02043B.txt
+NENE01729B.txt	NENE01812A.txt	NENE01978A.txt	NENE02040B.txt	goodiff.sh
+NENE01736A.txt	NENE01843A.txt	NENE01978B.txt	NENE02040Z.txt	goostats.sh
+NENE01751A.txt	NENE01843B.txt	NENE02018B.txt	NENE02043A.txt
+bash-3.2$ cd ..
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cd exercise-data/creatures/
+bash-3.2$ head -5 basilisk.dat minotaur.dat unicorn.dat
+==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+bash-3.2$ for filename in basilisk.dat minotaur.dat unicorn.dat 
+> do 
+> echo $filename
+> head -n 3 $filename[K[K[K[Kname | tail -n 1
+> done
+basilisk.dat
+UPDATED: 1745-05-02
+minotaur.dat
+UPDATED: 1765-02-17
+unicorn.dat
+UPDATED: 1738-11-24
+bash-3.2$ for x in basilisk.dat minotaur.dat unicorn.dat 
+> do
+> head -n 2 $x | tail -n 1
+> done
+CLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+bash-3.2$ for temp in [K[K[K[Kerature in basilisk.dat minotaur.dat unicorn.dat 
+> don[K
+> head 0[K-n 2 $temperature | tail -n 1
+> done
+CLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+bash-3.2$ for num in 0 1 2 3 4 5 6 7 8 9
+> do
+> echi[Ko $num
+> done
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+bash-3.2$ cd ../alkanes/[K
+bash-3.2$ for datafile in *.pbd[K[Kdb
+> do
+> ls *.pdb
+> done
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+cubane.pdb	methane.pdb	pentane.pdb
+ethane.pdb	octane.pdb	propane.pdb
+bash-3.2$ for datafile in *.pdb; do ls *.pdb; done[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@$[1@d[1@a[1@t[1@a[1@f[1@i[1@l[1@e[C[C[C[C[C[C
+cubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+bash-3.2$ for filename i[K[K in c*; do ls $filename; done
+cubane.pdb
+bash-3.2$ for filename in c*; do ls $filename; done[1@*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cubane.pdb
+octane.pdb
+bash-3.2$ for alkanes in *.odb[K[K[Kpdb
+> do
+> echo $alkanes
+> cat $alkanes > alkanes.o[Kpdb
+> done
+cubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+bash-3.2$ for fk[Kilename in *c* [K; do ls $filename[1@;[C[C[C[C[C[C[C[C[C[C[C[C[C; doe[Kne;
+bash: syntax error near unexpected token `;'
+bash-3.2$ for filename in *c*; do; ls $filename; done;[K
+bash: syntax error near unexpected token `;'
+bash-3.2$ for filename in *c*; do; ls $filename; done[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cubane.pdb
+octane.pdb
+bash-3.2$ for datafile in *.pdb
+> fo[K[Kdo
+> a[Kcat $datafile >> all.pdb
+> done
+bash-3.2$ cd [K[K[Kls
+alkanes.pdb		lengths.txt		propane.pdb
+all.pdb			methane.pdb		sorted_lengths.txt
+cubane.pdb		octane.pdb		testfile01.txt
+ethane.pdb		pentane.pdb		testfile02.txt
+bash-3.2$ cd ../creatures/
+bash-3.2$ for filena[K[Kname in *.dat
+> do
+> echo $filename
+> head -n 100 $filena[Kame | tail 0[K-n 20
+> done
+basilisk.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+minotaur.dat
+GGTTGGACCG
+AGTGAACGAA
+GCGATTGATG
+CCCAGTATTG
+GTTTCGGGTC
+CCACCAGGAA
+CAATGTTGGA
+CTTTAGCACG
+ACAGGAATCA
+ATCGTTTCGT
+AATGGTGGCA
+CTTTGGGGTT
+GCAGGCCCGC
+CTGTGCCTTC
+AACGGTCGGC
+AAATAGGACA
+GAGATTTCCT
+GCCTCAAACA
+TCGCAAGACG
+ATTTATCCGG
+unicorn.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+bash-3.2$ echo hello h[Kthere
+hello there
+bash-3.2$ for filename in "e[Kred dragon.data[K" "purple d[Kunicorn.dat"
+> do
+> head -n 100 "$filename" | tail -n 29[K0
+> done
+head: red dragon.dat: No such file or directory
+head: purple unicorn.dat: No such file or directory
+bash-3.2$ for filename in p[Kpurple drafon[K[K[Kgao[K[Kon.,da[K[K[Kdat
+> do
+> head 0[K-n 100 $filename | tail -n 20
+> done
+head: purple: No such file or directory
+head: dragon.dat: No such file or directory
+bash-3.2$ for filename in purple dragon.dat; do head -n 100 $filename | tail -n 220; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"red dragon.dat" "purple unicorn.dat"; do head -n 100
+[22@"$filename" | tail -n [C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+head: red: No such file or directory
+head: dragon.dat: No such file or directory
+head: purple: No such file or directory
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+bash-3.2$ $filenm[Kame
+bash: purple: command not found
+bash-3.2$ $filenamefor filename in "red dragon.dat" "purple unicorn.dat"; do head -n 100 $$filename | tail -n 20; done[Apurple dragon.dat; do head -n 100 $filename | tail -n
+20; done[K
+head: purple: No such file or directory
+head: dragon.dat: No such file or directory
+bash-3.2$ cp *.dat original-*.dat
+cp: original-*.dat is not a directory
+bash-3.2$ for filename in *.dat
+> do
+> cp $filename original-$filename
+> done
+bash-3.2$ for filename in *.dat
+> do
+> echo cp $filename original0[K-@[K$filename
+> done
+cp basilisk.dat original-basilisk.dat
+cp minotaur.dat original-minotaur.dat
+cp original-basilisk.dat original-original-basilisk.dat
+cp original-minotaur.dat original-original-minotaur.dat
+cp original-unicorn.dat original-original-unicorn.dat
+cp unicorn.dat original-unicorn.dat
+bash-3.2$ echo "Nelle's Pipeline: Processing Files"
+Nelle's Pipeline: Processing Files
+bash-3.2$ ls
+basilisk.dat		original-basilisk.dat	original-unicorn.dat
+minotaur.dat		original-minotaur.dat	unicorn.dat
+bash-3.2$ cd ../numbers.txt [K[K[K[K[K[K[K[K[K[K[K[K../north-pacific-gyre/
+bash-3.2$ cd
+bash-3.2$ ls
+Applications			TVS
+Applications (Parallels)	TeamsApps
+BitMagic			Untitled.R
+Data Science & Machine Learning	Untitled.ipynb
+Desktop				anaconda3
+Documents			branching
+Downloads			first_repo
+Dropbox				git_sp
+IITG				gitworkshop
+Library				install.sh
+Movies				miniconda3
+Music				miniforge3
+Parallels			my_unix_session
+Photos_				opt
+Pictures			programs
+Postman				qdrant_storage
+Postman Agent			revert
+Projects			rprof.log
+Public				s_01hwkyhc19c75yn8keefdhmzse
+PycharmProjects			stable-diffusion
+R-Studio			typescript
+Strengths.txt
+bash-3.2$ cd ../../Volumes/Passport/Company/TAMLEP/tamlep/md[Kodule_1/n[Ke[Kshell-lesson-ddata/
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cd north-pacific-gyre/
+bash-3.2$ for datafile in NENE*A.txt NENE*B.txt
+> do
+> echo $f[Kdatafile
+> done
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+bash-3.2$ for datafile in NENE*A.txt NENE*B.txt; do echo $datafile; done[1@ [1@s[1@t[1@a[1@t[1@s[1@-$; done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd; donee[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[Cfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$dataf;  done[A[C[C[C[C[Ccd north-pacific-gyre/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ../../Volumes/Passport/Company/TAMLEP/tamlep/module_1/shell-lesson-ddata/[A[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[Ccd north-pacific-gyre/[C[C[C[C[C[C[C[C[C[Cfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$dataf;  done[A[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[Cclear
+[H[2J[3Jbash-3.2$ clearfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$dataf;  done[A[C[C[C[C[Ccd north-pacific-gyre/[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ../../Volumes/Passport/Company/TAMLEP/tamlep/module_1/shell-lesson-ddata/[A[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[Ccd north-pacific-gyre/[C[C[C[C[C[C[C[C[C[Cfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$dataf;  done[A[C[C[C[C[Cclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfor datafie[K[Kile in NENE*A NENE*B.txt. NENE*B.txtt NENE*B.txtx NENE*B.txtt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[C
+> do
+> echo $datafile stats-$datafile
+> done
+NENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+bash-3.2$ for datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$datafille; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[A[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[Cclear
+[H[2J[3Jbash-3.2$ for datafile in NENE*A.txt NENE*B.txt
+> do
+> bash goostats.sh $datafile stats-$datafile
+> done
+bash-3.2$ for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile sttats-$datafile; done[A[K
+[K[A[C[C[C[C[C[C[C[C[C[Cclear
+[H[2J[3Jbash-3.2$ for datafile in NENE0[K*A.txt NENE*B.txt
+> do
+> echo $datafik[Kle
+> bash goostats.sh $datafile sats[K[K[Ktats-$datafile
+> done
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+bash-3.2$ history | taik[Kl -n 5
+  574  clear
+  575  for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done
+  576  clear
+  577  for datafile in NENE*A.txt NENE*B.txt; do echo $datafile; bash goostats.sh $datafile stats-$datafile; done
+  578  history | tail -n 5
+bash-3.2$ !574
+clear
+[H[2J[3Jbash-3.2$ [12@(reverse-i-search)`':[Cq': cut -d , -f 2 animals.csv | sort | uniq -c[6P[C[C[C[C[6@sort |[C[C[C[C[13Pbash-3.2$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[6@sort |[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K!!
+clear
+[H[2J[3Jbash-3.2$ !$
+clear
+[H[2J[3Jbash-3.2$ echon [K[K Shell Scripts
+Shell Scripts
+bash-3.2$ echo How can I a[Ksave and re-use comands[K[K[K[Kmands?
+How can I save and re-use commands?
+bash-3.2$ ls
+NENE01729A.txt		NENE02040A.txt		stats-NENE01812A.txt
+NENE01729B.txt		NENE02040B.txt		stats-NENE01843A.txt
+NENE01736A.txt		NENE02040Z.txt		stats-NENE01843B.txt
+NENE01751A.txt		NENE02043A.txt		stats-NENE01978A.txt
+NENE01751B.txt		NENE02043B.txt		stats-NENE01978B.txt
+NENE01812A.txt		goodiff.sh		stats-NENE02018B.txt
+NENE01843A.txt		goostats.sh		stats-NENE02040A.txt
+NENE01843B.txt		stats-NENE01729A.txt	stats-NENE02040B.txt
+NENE01971Z.txt		stats-NENE01729B.txt	stats-NENE02043A.txt
+NENE01978A.txt		stats-NENE01736A.txt	stats-NENE02043B.txt
+NENE01978B.txt		stats-NENE01751A.txt
+NENE02018B.txt		stats-NENE01751B.txt
+bash-3.2$ cd ../..
+bash-3.2$ ls
+logfile			shell-lesson-data
+my_typescript.txt	typescript
+bash-3.2$ cd shell-lesson-data/north-pacific-gyre/a[Kal[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexercise-data/alkanes/
+bash-3.2$ nano middle.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: middle.sh                           [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: middle.sh                     Modified[27m[3;1Hhead[3;6H-n[3;9H15[3;12Hoctane.pdb[3;23H|[3;25Htail[3;30H-n[3;33H5[4;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hmiddle.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 2 lines ][27m[1;35H[7m    File: middle.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[4;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash middle.sh [K
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+bash-3.2$ bash middle.sh[C[C[C[C[C[C[C[C[C[Cnano[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 2 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: middle.sh                           [27m[3;1Hhead -n 15 octane.pdb | tail -n 5[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[3;2H[3;3H[3;4H[3;5H[3;6H[3;7H[3;8H[3;9H[3;10H[3;11H[3;12H[3;13H[3;14H[3;15H[3;16H[3;17H[3;18H[1;35H[7mFile: middle.sh                     Modified[27m[3;17H[P[3;17H[3;16H[P[3;16H[3;15H[P[3;15H[3;14H[P[3;14H[3;13H[P[3;13H[3;12H[P[3;12H[4h$[4l[3;13H[4h1[4l[3;14H[3;15H[3;16H[3;17H[3;18H[3;19H[3;20H[3;21H[3;22H[3;23H[3;24H[3;25H[3;26H[3;27H[3;28H[3;29H[3;30H[4;1H[5;1H[4;1H[3;30H[3;29H[3;28H[3;27H[3;26H[3;25H[3;24H[3;23H[3;22H[3;21H[3;20H[3;19H[3;18H[3;17H[3;16H[3;15H[3;14H[3;13H[3;14H[3;15H[3;16H[3;17H[3;18H[3;17H[P[3;17H[3;16H[P[3;16H[3;15H[P[3;15H[3;14H[P[3;14H[4h"[4l[3;15H[3;14H[3;13H[3;12H[4h"[4l[3;13H[4;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hmiddle.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 2 lines ][27m[1;35H[7m    File: middle.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[4;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano middle.sh ocr[Ktabm[K[K[Kane.pdb
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 2 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: middle.sh                           [27m[3;1Hhead -n 15 "$1" | tail -n 5[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hmiddle.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 2 lines ][27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano middle.sh octane.pdb[K[C[C[C[C[C[C[C[C[C[Cbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash[C[C[C[C[C[C[C[C[C[C o [Kctane.pdb
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+bash-3.2$ bash middle.sh octane.pdb[1P.pdb[1P.pdb[1P.pdb[1P.pdb[1P.pdb[1P.pdbp.pdbe.pdbn.pdbt.pdba.pdbn.pdbe.pdb[C[C[C[C
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+bash-3.2$ nano middle.sh [K
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 2 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: middle.sh                           [27m[3;1Hhead -n 15 "$1" | tail -n 5[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[3;2H[3;3H[3;4H[3;5H[3;6H[3;7H[3;8H[3;9H[3;10H[3;11H[3;12H[3;13H[3;14H[3;15H[3;14H[3;15H[3;14H[3;13H[3;12H[3;11H[1;35H[7mFile: middle.sh                     Modified[27m[3;10H[P[3;10H[3;9H[P[3;9H[4h"[4l[3;10H[4h$[4l[3;11H[4h2[4l[3;12H[4h"[4l[3;13H[3;14H[3;15H[3;16H[3;17H[3;18H[3;19H[3;20H[3;21H[3;22H[3;23H[3;24H[3;25H[3;26H[3;27H[3;28H[3;29H[3;30H[4;1H[3;30H[3;29H [3;29H"$3"[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hmiddle.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 2 lines ][27m[1;35H[7m    File: middle.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;33H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash middle.sh pentane.[K[K[K[Kane.pdb 15 5
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+bash-3.2$ bash middle.sh pentane.pdb 15 5[K[K[K[K10 5
+ATOM      4  C           1      -1.249   0.421  -0.326  1.00  0.00
+ATOM      5  C           1      -2.536  -0.311   0.047  1.00  0.00
+ATOM      6  H           1       2.471  -1.420  -0.033  1.00  0.00
+ATOM      7  H           1       2.443  -0.371   1.412  1.00  0.00
+ATOM      8  H           1       3.393   0.112  -0.016  1.00  0.00
+bash-3.2$ bash middle.sh pentane.pdb 10 55[C[C[C[C[C[C[C[C[C[C[C[C[17Pnano middle.sh[C[C[C[C[C[C[C[C[C[Cbash middle.sh pentane.pdb[C[C[C[C[C[C[C[C[C[C[12Pnano middle.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 2 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: middle.sh                           [27m[3;1Hhead -n "$2" "$1" | tail -n "$3"[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[4;1H[3;1H[1;35H[7mFile: middle.sh                     Modified[27m[3;1H[K[4;1Hhead -n "$2" "$1" | tail -n "$3"[4;1H[3;1H#[3;3HSel[3;5H [3;5Hlect[3;10Hlines[3;16Hfrom[3;21Htj[3;22H [3;22Hhe[3;25Hi[3;25H [3;25Hmiddle[3;32Hof[3;35Ha[3;37Hfile[4;1H[K[5;1Hhead -n "$2" "$1" | tail -n "$3"[4;1H#[4;3HUsage:[4;10Hbash[4;15Hmiddle[4;22H[4;21H.sh[4;25Hfm[4;26H [4;26Hilename[4;34Hend_line[4;43Hnum_lines[5;1H[K[6;1Hhead -n "$2" "$1" | tail -n "$3"[5;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hmiddle.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 5 lines ][27m[1;35H[7m    File: middle.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[5;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ wc -l *.pdb | sort -n
+       9 methane.pdb
+      12 ethane.pdb
+      15 alkanes.pdb
+      15 propane.pdb
+      20 cubane.pdb
+      21 pentane.pdb
+      30 octane.pdb
+     122 all.pdb
+     244 total
+bash-3.2$ nano sorted.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: sorted.sh                           [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: sorted.sh                     Modified[27m[3;1H#[3;3HSort[3;8Hfiles[3;14Hby[3;17Htheir[3;23Hlengths[4;1H#[4;3HUsangeL[4;11H[4;10H[4;9H [4;9H:[4;11Hbash[4;16Hsorted.sh[4;26Hone_or_more_filenames[5;1Hwc[5;2H [5;2H[5;1H [5;1H[6;1Hwc[6;4H-l[6;7H"$@"[6;12H|[6;14Hsort[6;19H-n[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hsorted.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 4 lines ][27m[1;35H[7m    File: sorted.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[6;21H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash sorted.sh *.pdb ../creatures/*.dat
+       9 methane.pdb
+      12 ethane.pdb
+      15 alkanes.pdb
+      15 propane.pdb
+      20 cubane.pdb
+      21 pentane.pdb
+      30 octane.pdb
+     122 all.pdb
+     163 ../creatures/basilisk.dat
+     163 ../creatures/minotaur.dat
+     163 ../creatures/original-basilisk.dat
+     163 ../creatures/original-minotaur.dat
+     163 ../creatures/original-unicorn.dat
+     163 ../creatures/unicorn.dat
+    1222 total
+bash-3.2$ cd ../e[K../exercise-data/amn[K[Knimal-counts/
+bash-3.2$ nano species.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: species.sh                          [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: species.sh                    Modified[27m[3;1H#[3;3HListing[3;11Huniqye[3;16H [3;16H[3;15H [3;15Hue[3;18Hspecies[4;1H#[4;3HUsage:[5;1H[6;1Hcut[6;5H-d,[6;9H-f[6;12H2[6;14Hanim[6;25H[6;18H[6;17H [6;17Hmals[6;20H [6;20H[6;19H [6;19Ha[6;19H [6;19Hs[6;19H [6;19Hls.csv[6;26H|[6;28Hsort[6;33Huniq[6;36H[6;35H[6;34H[6;33H[6;32H[6;31H[6;30H[6;29H[6;28H[6;27H[6;26H[6;25H[6;24H[P[6;24H[6;23H[P[6;23H[6;22H[P[6;22H[6;21H[P[6;21H[6;20H[P[6;20H[6;19H[P[6;19H[6;18H[P[6;18H[6;17H[P[6;17H[6;16H[P[6;16H[6;15H[P[6;15H[6;14H[P[6;14H[4h|[4l[6;15H[6;14H[P[6;14H[4h"[4l[6;15H[4h$[4l[6;16H[4h@[4l[6;17H[4h"[4l[6;18H[6;19H[6;20H[6;21H[6;22H[6;23H[6;24H[6;25H[6;26H[6;27H[6;28H[6;29H[6;30H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hspecies.sh                                                 [22;32H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 4 lines ][27m[1;35H[7m    File: species.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[6;30H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash so[Kpecies.sh animals.csv [K
+sort: No such file or directory
+bash-3.2$ ls
+animals.csv	final.txt	species.sh
+bash-3.2$ lsbash species.sh animals.csv[C[C[C[C[C[C[C[C[C[C[12Pnano species.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 4 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: species.sh                          [27m[3;1H# Listing unique species[4;1H# Usage:[6;1Hcut -d, -f 2 "$@" | sort uniq[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[4;1H[5;1H[6;1H[5;1H[6;1H[6;2H[6;3H[6;4H[6;5H[6;6H[6;7H[6;8H[6;9H[6;10H[6;11H[6;12H[6;13H[6;14H[6;15H[6;16H[6;17H[6;18H[6;19H[6;20H[6;21H[6;22H[6;23H[6;24H[6;25H[1;35H[7mFile: species.sh                    Modified[27m[6;25H[4h|[4l[6;26H[6;25H[4h [4l[6;26H[6;27H[6;28H[6;29H[5;1H[4;9H[4;10Hbash[4;15Hs[e[4;17H [4;17H[4;16H [4;16Hpecies.sh[4;26Hone_or_p[4;33H [4;33Hmore_fo;[4;40H [4;40H[4;39H [4;39Hiles[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hspecies.sh                                                 [22;32H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 4 lines ][27m[1;35H[7m    File: species.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[4;43H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano species.sh[C[C[C[C[C[C[C[C[C[Cls[Kbash species.sh animals.csv
+bear
+deer
+fox
+rabbit
+raccoon
+bash-3.2$ history | tail -n 5 > redo-figure-3.sh
+bash-3.2$ echo "Nelle;s[K[K's Pipl[Keline: Creating a Script"
+Nelle's Pipeline: Creating a Script
+bash-3.2$ cd ../../m[Kb[Knorth-pacific-gyre/[K/
+bash-3.2$ nano do-stats.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                       File: do-stats.sh                          [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;34H[7mFile: do-stats.sh                    Modified[27m[3;1H#[3;3HCalcilat[3;10H [3;10H[3;9H [3;9H[3;8H [3;8H[3;7H [3;7Hu;a[3;9H [3;9H[3;8H [3;8Hlate[3;13Hstats[3;19Hfor[3;23Hdata[3;28Hfiles.[4;1Hfor[4;5Hdatafile[4;14Hin[4;17H"$@"[5;1Hdo[6;1H[6;9Hecho[6;14H$datafile[7;1H[7;9Hbash[7;14Hgoo[7;25H[7;17Hstats.sh[7;26H$datafile[7;36Hstats-$datafo[7;48H [7;48Hiles[7;51H [7;51H[8;1Hdone[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hdo-stats.sh                                                [22;33H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 6 lines ][27m[1;34H[7m    File: do-stats.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[8;5H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash s[Kdo-stats.sh NENE*A.txt NENE*B.txt
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+bash-3.2$ ls
+NENE01729A.txt		NENE02040A.txt		stats-NENE01751B.txt
+NENE01729B.txt		NENE02040B.txt		stats-NENE01812A.txt
+NENE01736A.txt		NENE02040Z.txt		stats-NENE01843A.txt
+NENE01751A.txt		NENE02043A.txt		stats-NENE01843B.txt
+NENE01751B.txt		NENE02043B.txt		stats-NENE01978A.txt
+NENE01812A.txt		do-stats.sh		stats-NENE01978B.txt
+NENE01843A.txt		goodiff.sh		stats-NENE02018B.txt
+NENE01843B.txt		goostats.sh		stats-NENE02040A.txt
+NENE01971Z.txt		stats-NENE01729A.txt	stats-NENE02040B.txt
+NENE01978A.txt		stats-NENE01729B.txt	stats-NENE02043A.txt
+NENE01978B.txt		stats-NENE01736A.txt	stats-NENE02043B.txt
+NENE02018B.txt		stats-NENE01751A.txt
+bash-3.2$ cd ..
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cd e[Knorth-pacific-gyre/
+bash-3.2$ ls
+NENE01729A.txt		NENE02040A.txt		stats-NENE01751B.txt
+NENE01729B.txt		NENE02040B.txt		stats-NENE01812A.txt
+NENE01736A.txt		NENE02040Z.txt		stats-NENE01843A.txt
+NENE01751A.txt		NENE02043A.txt		stats-NENE01843B.txt
+NENE01751B.txt		NENE02043B.txt		stats-NENE01978A.txt
+NENE01812A.txt		do-stats.sh		stats-NENE01978B.txt
+NENE01843A.txt		goodiff.sh		stats-NENE02018B.txt
+NENE01843B.txt		goostats.sh		stats-NENE02040A.txt
+NENE01971Z.txt		stats-NENE01729A.txt	stats-NENE02040B.txt
+NENE01978A.txt		stats-NENE01729B.txt	stats-NENE02043A.txt
+NENE01978B.txt		stats-NENE01736A.txt	stats-NENE02043B.txt
+NENE02018B.txt		stats-NENE01751A.txt
+bash-3.2$ cd ..
+bash-3.2$ c[Kl[Kcd exercise-data/alkanes/[K
+bash-3.2$ nano script.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: script.sh                           [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: script.sh                     Modified[27m[3;1Hhead[3;6H-n[3;9H$2[3;12H$1[4;1Htail[4;6H-n[4;9H$3[4;12H#[4;12H [4;12H$[4;14H[4;13H1[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hscript.sh                                                  [22;31H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 2 lines ][27m[1;35H[7m    File: script.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[4;14H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash script.sh '*pdb;[K[K[K[K.pdb' 1 1
+==> alkanes.pdb <==
+COMPND      PROPANE
+
+==> all.pdb <==
+COMPND      PROPANE
+
+==> cubane.pdb <==
+COMPND      CUBANE
+
+==> ethane.pdb <==
+COMPND      ETHANE
+
+==> methane.pdb <==
+COMPND      METHANE
+
+==> octane.pdb <==
+COMPND      OCTANE
+
+==> pentane.pdb <==
+COMPND      PENTANE
+
+==> propane.pdb <==
+COMPND      PROPANE
+==> alkanes.pdb <==
+END
+
+==> all.pdb <==
+END
+
+==> cubane.pdb <==
+END
+
+==> ethane.pdb <==
+END
+
+==> methane.pdb <==
+END
+
+==> octane.pdb <==
+END
+
+==> pentane.pdb <==
+END
+
+==> propane.pdb <==
+END
+bash-3.2$ echo Fin[K[K[K:f[K[K"find the linge[K[K[K[Kongest file with a given extento[Kion"
+find the longest file with a given extention
+bash-3.2$ bash[K[K[K[Knano longest.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: longest.sh                          [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: longest.sh                    Modified[27m[3;1H#[3;3HShell[3;9Hscripts[3;17Hwhich[3;23Htake[3;28H[3;27Hs[3;29Htwo[3;33Harguments:[4;1H#[4;3H1[4;3H [4;3H[4;2H[4;3H[4;9H[4;3H[4;2H[4;9H1.[4;12Ha[4;14Hdirectory[4;24Hname[5;1H#[5;9H2.[5;12Ha[5;14Hfile[5;19Hextention[6;1H#[6;3Hasn[6;5H [6;5H[6;4H [6;4Hnd[6;7Hprints[6;14Hthe[6;18Hname[6;23Hof[6;26Hthe[6;30Hfile[6;35Hin[6;38Hthat[6;43Hdure[6;46H [6;46H[6;45H [6;45H[6;44H [6;44Hirectory[7;1H#[7;3Hwith[7;8Hthe[7;12Hmost[7;17Hlines[7;23Hwhich[7;29Hnatchers[7;38H[7;37H[7;36H [7;36H[7;35H [7;35Hs[7;37Hthe[7;41Hfile[7;46Hextention[8;1H[9;1Hwc[9;4H-l[9;7H$1/*.$2[9;15H|[9;17Hsort[9;22H-n[9;25H|[9;27Htail[9;32H-n[9;35H2[9;37H|[9;39Hhead[9;44H-n[9;47H1[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hlongest.sh                                                 [22;32H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 7 lines ][27m[1;35H[7m    File: longest.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[9;48H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash longest.sh [K [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano longest.sh[C[C[C[C[C[C[C[C[C[Cecho "find the longest file with a given extention"[C[C[C[C[C[C[C[C[C[Cnano longest.sh[K
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 7 lines ][27m[1;1H[J[7m  UW PICO 5.09                        File: longest.sh                          [27m[3;1H# Shell scripts which takes two arguments:[4;1H#       1. a directory name[5;1H#       2. a file extention[6;1H# and prints the name of the file in that directory[7;1H# with the most lines which natches the file extention[9;1Hwc -l $1/*.$2 | sort -n | tail -n 2 | head -n 1[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ ls
+alkanes.pdb		methane.pdb		sorted.sh
+all.pdb			middle.sh		sorted_lengths.txt
+cubane.pdb		octane.pdb		testfile01.txt
+ethane.pdb		pentane.pdb		testfile02.txt
+lengths.txt		propane.pdb
+longest.sh		script.sh
+bash-3.2$ cd ..
+bash-3.2$ ;s
+bash: syntax error near unexpected token `;'
+bash-3.2$ ls
+alkanes		animal-counts	creatures	numbers.txt	writing
+bash-3.2$ cd ../..
+bash-3.2$ ls
+logfile			shell-lesson-data
+my_typescript.txt	typescript
+bash-3.2$ cd [K[K[Knano longest.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                        File: longest.sh                          [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;35H[7mFile: longest.sh                    Modified[27m[3;1H#[3;3HShell[3;9Hscripts[3;17Hwhich[3;23Htakes[3;29Htwo[3;33Harguments:[4;1H#[4;3H[4;4H[4;5H[4;6H[4;7H[4;8H[4;9H1.[4;12Ha[4;14Hdirectory[4;24Hname[5;1H#[5;3H[5;4H[5;5H[5;6H[5;7H[5;8H[5;9H2.[5;12Ha[5;14Hfile[5;19Hextention[6;1H#[6;3Hand[6;7Hprints[6;14Hthe[6;18Hname[6;23Hof[6;26Hthe[6;30Hfile[6;35Hin[6;38Hthat[6;43Hdirectory[7;1H#[7;3Hwith[7;8Hthe[7;12Hmost[7;17Hlines[7;23Hwhich[7;29Hnatches[7;37Hthe[7;41Hfile[7;46Hextention[8;1H[9;1Hwc[9;4H-l[9;7H$1/*.$2[9;15H|[9;17Hsort[9;22H-n[9;25H|[9;27Htail[9;32H-n[9;35H2[9;37H|[9;39Hhead[9;44H-n[9;47H1[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hlongest.sh                                                 [22;32H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 7 lines ][27m[1;35H[7m    File: longest.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[9;48H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash longest.sh shell-lesson-data/exercise-data/writing/[K txt
+   21022 shell-lesson-data/exercise-data/writing/LittleWomen.txt
+bash-3.2$ bash longest.sh shell-lesson-data/exercise-data/writing txt[C[C[K[K[K[K[K[K[K[K[K[K[Kak[Klkanes/ [K[K pdb
+     122 shell-lesson-data/exercise-data/alkanes/all.pdb
+bash-3.2$ echo "Sci[K[Kcri[K[Kript reading compressi[K[K[K[K[Krehension
+> 
+bash-3.2$ echo "Script reading comprehension"
+Script reading comprehension
+bash-3.2$ cd shell-lesson-data/exercise-data/alkanes
+bash-3.2$ nano [K[K[K[K[Kecho "."
+.
+bash-3.2$ for filename in [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knaon script_2.sj
+bash: naon: command not found
+bash-3.2$ naon script_2.sj[Kh
+bash: naon: command not found
+bash-3.2$ naon script_2.sh[1P script_2.sh[1P script_2.shn script_2.sho script_2.sh[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                       File: script_2.sh                          [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;34H[7mFile: script_2.sh                    Modified[27m[3;1Hfor[3;5Hfilename[3;14Hin[3;17H$1[3;20H$2[3;23H$2[3;24H [3;24H3[4;1Hdo[5;1H[5;9Hcat[5;13H$filename[6;1Hdone[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hscript_2.sh                                                [22;33H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 4 lines ][27m[1;34H[7m    File: script_2.sh                        [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[6;5H[23;1H[K[24;1H[K[?1049lbash-3.2$ 
+bash-3.2$ bash script_2.sh octane.pdb methane.pdb ethane.pdb [K
+COMPND      OCTANE
+AUTHOR      DAVE WOODCOCK  96 01 05
+ATOM      1  C           1      -4.397   0.370  -0.255  1.00  0.00
+ATOM      2  C           1      -3.113  -0.447  -0.421  1.00  0.00
+ATOM      3  C           1      -1.896   0.386  -0.007  1.00  0.00
+ATOM      4  C           1      -0.611  -0.426  -0.198  1.00  0.00
+ATOM      5  C           1       0.608   0.405   0.216  1.00  0.00
+ATOM      6  C           1       1.892  -0.400   0.001  1.00  0.00
+ATOM      7  C           1       3.113   0.429   0.414  1.00  0.00
+ATOM      8  C           1       4.397  -0.374   0.199  1.00  0.00
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+ATOM     14  H           1      -1.992   0.668   1.044  1.00  0.00
+ATOM     15  H           1      -1.849   1.286  -0.621  1.00  0.00
+ATOM     16  H           1      -0.515  -0.707  -1.248  1.00  0.00
+ATOM     17  H           1      -0.659  -1.326   0.417  1.00  0.00
+ATOM     18  H           1       0.520   0.671   1.270  1.00  0.00
+ATOM     19  H           1       0.645   1.314  -0.386  1.00  0.00
+ATOM     20  H           1       1.979  -0.666  -1.054  1.00  0.00
+ATOM     21  H           1       1.855  -1.309   0.604  1.00  0.00
+ATOM     22  H           1       3.030   0.696   1.467  1.00  0.00
+ATOM     23  H           1       3.155   1.337  -0.188  1.00  0.00
+ATOM     24  H           1       4.493  -0.641  -0.854  1.00  0.00
+ATOM     25  H           1       4.368  -1.282   0.801  1.00  0.00
+ATOM     26  H           1       5.254   0.230   0.498  1.00  0.00
+TER      27              1
+END
+COMPND      METHANE
+AUTHOR      DAVE WOODCOCK  95 12 18
+ATOM      1  C           1       0.257  -0.363   0.000  1.00  0.00
+ATOM      2  H           1       0.257   0.727   0.000  1.00  0.00
+ATOM      3  H           1       0.771  -0.727   0.890  1.00  0.00
+ATOM      4  H           1       0.771  -0.727  -0.890  1.00  0.00
+ATOM      5  H           1      -0.771  -0.727   0.000  1.00  0.00
+TER       6              1
+END
+COMPND      ETHANE
+AUTHOR      DAVE WOODCOCK  95 12 18
+ATOM      1  C           1      -0.752   0.001  -0.141  1.00  0.00
+ATOM      2  C           1       0.752  -0.001   0.141  1.00  0.00
+ATOM      3  H           1      -1.158   0.991   0.070  1.00  0.00
+ATOM      4  H           1      -1.240  -0.737   0.496  1.00  0.00
+ATOM      5  H           1      -0.924  -0.249  -1.188  1.00  0.00
+ATOM      6  H           1       1.158  -0.991  -0.070  1.00  0.00
+ATOM      7  H           1       0.924   0.249   1.188  1.00  0.00
+ATOM      8  H           1       1.240   0.737  -0.496  1.00  0.00
+TER       9              1
+END
+bash-3.2$ echo $@.pdb
+.pdb
+bash-3.2$ echo $@.pdb[K# [K[Kecho $@.pdb"$@.pdba$@.pdbn$@.pdby$@.pdb $@.pdbn$@.pdbu$@.pdbm$@.pdbb$@.pdbe$@.pdbr$@.pdb $@.pdbo$@.pdbf$@.pdb $@.pdba$@.pdbr$@.pdbg$@.pdbu$@.pdbm$@.pdbe$@.pdbn$@.pdbt$@.pdbs$@.pdb $@.pdb[C[C[C[C[C[C"
+any number of arguments .pdb
+bash-3.2$ s[Kecho "Debugging scripts"
+Debugging scripts
+bash-3.2$ ls
+alkanes.pdb		methane.pdb		script_2.sh
+all.pdb			middle.sh		sorted.sh
+cubane.pdb		octane.pdb		sorted_lengths.txt
+ethane.pdb		pentane.pdb		testfile01.txt
+lengths.txt		propane.pdb		testfile02.txt
+longest.sh		script.sh
+bash-3.2$ cd ../../north-pacific-gyre/
+bash-3.2$ nano do-r[Kerrors.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                       File: do-errors.sh                         [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;34H[7mFile: do-errors.sh                   Modified[27m[3;1H#[3;3Hcak[3;5H [3;5H[3;4H [3;4H[3;3H [3;3HCalculate[3;13Hstats[3;19Hfor[3;23Hdata[3;28Hfik[3;30H [3;30Hles[4;1Hfor[4;5Hdatafile[4;14Hin[4;17H"$@"[5;1Hdo[5;4H[5;3H[6;1H[6;9Hecho[6;14H$datafole[6;22H [6;22H[6;21H [6;21H[6;20H [6;20Hile[7;1H[7;9Hbash[7;14Hgoostats.sh[7;26H$datafile[7;36Hstats-da[7;43H [7;43H[7;42H [7;42H$datafile[8;1Hdone[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hdo-errors.sh                                               [22;34H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 6 lines ][27m[1;34H[7m    File: do-errors.sh                       [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[8;5H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash do-r[K[K-errors.sh NENE*A.txt NENE*B.txt
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+bash-3.2$ bash do-errors.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[22Pnano do-errors.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 6 lines ][27m[1;1H[J[7m  UW PICO 5.09                       File: do-errors.sh                         [27m[3;1H# Calculate stats for data files[4;1Hfor datafile in "$@"[5;1Hdo[6;9Hecho $datafile[7;9Hbash goostats.sh $datafile stats-$datafile[8;1Hdone[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano do-errors.sh[C[C[C[C[C[C[C[C[C[Cbash do-errors.sh NENE*A.txt NENE*B.txt[1@-[1@x[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
++ for datafile in '"$@"'
++ echo NENE01729A.txt
+NENE01729A.txt
++ bash goostats.sh NENE01729A.txt stats-NENE01729A.txt
++ for datafile in '"$@"'
++ echo NENE01736A.txt
+NENE01736A.txt
++ bash goostats.sh NENE01736A.txt stats-NENE01736A.txt
++ for datafile in '"$@"'
++ echo NENE01751A.txt
+NENE01751A.txt
++ bash goostats.sh NENE01751A.txt stats-NENE01751A.txt
++ for datafile in '"$@"'
++ echo NENE01812A.txt
+NENE01812A.txt
++ bash goostats.sh NENE01812A.txt stats-NENE01812A.txt
++ for datafile in '"$@"'
++ echo NENE01843A.txt
+NENE01843A.txt
++ bash goostats.sh NENE01843A.txt stats-NENE01843A.txt
++ for datafile in '"$@"'
++ echo NENE01978A.txt
+NENE01978A.txt
++ bash goostats.sh NENE01978A.txt stats-NENE01978A.txt
++ for datafile in '"$@"'
++ echo NENE02040A.txt
+NENE02040A.txt
++ bash goostats.sh NENE02040A.txt stats-NENE02040A.txt
++ for datafile in '"$@"'
++ echo NENE02043A.txt
+NENE02043A.txt
++ bash goostats.sh NENE02043A.txt stats-NENE02043A.txt
++ for datafile in '"$@"'
++ echo NENE01729B.txt
+NENE01729B.txt
++ bash goostats.sh NENE01729B.txt stats-NENE01729B.txt
++ for datafile in '"$@"'
++ echo NENE01751B.txt
+NENE01751B.txt
++ bash goostats.sh NENE01751B.txt stats-NENE01751B.txt
++ for datafile in '"$@"'
++ echo NENE01843B.txt
+NENE01843B.txt
++ bash goostats.sh NENE01843B.txt stats-NENE01843B.txt
++ for datafile in '"$@"'
++ echo NENE01978B.txt
+NENE01978B.txt
++ bash goostats.sh NENE01978B.txt stats-NENE01978B.txt
++ for datafile in '"$@"'
++ echo NENE02018B.txt
+NENE02018B.txt
++ bash goostats.sh NENE02018B.txt stats-NENE02018B.txt
++ for datafile in '"$@"'
++ echo NENE02040B.txt
+NENE02040B.txt
++ bash goostats.sh NENE02040B.txt stats-NENE02040B.txt
++ for datafile in '"$@"'
++ echo NENE02043B.txt
+NENE02043B.txt
++ bash goostats.sh NENE02043B.txt stats-NENE02043B.txt
+^C
+bash-3.2$ bash -x do-errors.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[25Pnano do-errors.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;33H[7m[ Reading file ][27m[22;1H                                                                                [22;33H[7m[ Read 6 lines ][27m[1;1H[J[7m  UW PICO 5.09                       File: do-errors.sh                         [27m[3;1H# Calculate stats for data files[4;1Hfor datafile in "$@"[5;1Hdo[6;9Hecho $datafile[7;9Hbash goostats.sh $datafile stats-$datafile[8;1Hdone[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[4;1H[4;2H[5;2H[5;3H[6;1H[6;9H[6;10H[6;11H[6;12H[6;13H[6;14H[6;15H[6;16H[6;17H[6;18H[6;19H[1;34H[7mFile: do-errors.sh                   Modified[27m[6;18H[P[6;18H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hdo-errors.sh                                               [22;34H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 6 lines ][27m[1;34H[7m    File: do-errors.sh                       [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[6;18H[23;1H[K[24;1H[K[?1049lbash-3.2$ nano do-errors.sh[C[C[C[C[C[C[C[C[C[Cbash -x do-errors.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[25Pnano do-errors.sh[C[C[C[C[C[C[C[C[C[Cbash do-errors.sh NENE*A.txt NENE*B.txt
+
+
+
+
+^C
+bash-3.2$ bash do-errors.sh NENE*A.txt NENE*B.txt[C[C[C[C[C[C[C[C[C[C[22Pnano do-errors.sh[C[C[C[C[C[C[C[C[C[Cbash -x do-errors.sh NENE*A.txt NENE*B.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01729A.txt stats-NENE01729A.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01736A.txt stats-NENE01736A.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01751A.txt stats-NENE01751A.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01812A.txt stats-NENE01812A.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01843A.txt stats-NENE01843A.txt
++ for datafile in '"$@"'
++ echo
+
++ bash goostats.sh NENE01978A.txt stats-NENE01978A.txt
+^C
+bash-3.2$ ls
+NENE01729A.txt		NENE02040A.txt		stats-NENE01751A.txt
+NENE01729B.txt		NENE02040B.txt		stats-NENE01751B.txt
+NENE01736A.txt		NENE02040Z.txt		stats-NENE01812A.txt
+NENE01751A.txt		NENE02043A.txt		stats-NENE01843A.txt
+NENE01751B.txt		NENE02043B.txt		stats-NENE01843B.txt
+NENE01812A.txt		do-errors.sh		stats-NENE01978A.txt
+NENE01843A.txt		do-stats.sh		stats-NENE01978B.txt
+NENE01843B.txt		goodiff.sh		stats-NENE02018B.txt
+NENE01971Z.txt		goostats.sh		stats-NENE02040A.txt
+NENE01978A.txt		stats-NENE01729A.txt	stats-NENE02040B.txt
+NENE01978B.txt		stats-NENE01729B.txt	stats-NENE02043A.txt
+NENE02018B.txt		stats-NENE01736A.txt	stats-NENE02043B.txt
+bash-3.2$ cd ../../e[Kshell-lesson-data/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexercise-data/writing/
+bash-3.2$ cd ../exercise-data/writing/[C[C[C[C[C[C[C[C[C[Cls[Kcd ../exercise-data/writing/[C[C[C[C[C[C[C[C[C[C[Kecjho[K[K[Kho "Finding things"
+Finding things
+bash-3.2$ cat a[Khaiku.txt
+The Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+bash-3.2$ grep not hail[Kku.txt
+Is not the true Tao, until
+"My Thesis" not found.
+Today it is not working
+bash-3.2$ grep -w The ja[K[Khaiku.txt [K
+The Tao that is seen
+bash-3.2$ grep -w "is not [K" haiku.txt [K
+Today it is not working
+bash-3.2$ grep -n "it:[K" haiku.txt [K
+5:With searching comes loss
+9:Yesterday it worked
+10:Today it is not working
+bash-3.2$ grep -n -w :[K"the" haiku.txt [K
+2:Is not the true Tao, until
+6:and the presence of absence:
+bash-3.2$ grep -n -w -i "the" haiku.txt [K
+1:The Tao that is seen
+2:Is not the true Tao, until
+6:and the presence of absence:
+bash-3.2$ grep -n -w -v "the [K" haiku.txt [K
+1:The Tao that is seen
+3:You bring fresh toner.
+4:
+5:With searching comes loss
+7:"My Thesis" not found.
+8:
+9:Yesterday it worked
+10:Today it is not working
+11:Software is like that.
+bash-3.2$ grep -r Yesd[Kterday .
+./LittleWomen.txt:"Yesterday, when Aunt was asleep and I was trying to be as still as a
+./LittleWomen.txt:Yesterday at dinner, when an Austrian officer stared at us and then
+./LittleWomen.txt:Yesterday was a quiet day spent in teaching, sewing, and writing in my
+./haiku.txt:Yesterday it worked
+bash-3.2$ grep --help
+usage: grep [-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+bash-3.2$ grep -E "of" haiku.txt [K
+and the presence of absence:
+Software is like that.
+bash-3.2$ grep -w "of" haiku.txt [K
+and the presence of absence:
+bash-3.2$ echo "WILDCARDS"
+WILDCARDS
+bash-3.2$ grep -E "^.o" haiku.txt [K
+You bring fresh toner.
+Today it is not working
+Software is like that.
+bash-3.2$ echo "tracking speci[K[Kcies"
+tracking species
+bash-3.2$ ls
+LittleWomen.txt	haiku.txt	thesis		thesis_backup
+bash-3.2$ cd ..
+bash-3.2$ ;s
+bash: syntax error near unexpected token `;'
+bash-3.2$ ls
+alkanes		animal-counts	creatures	numbers.txt	writing
+bash-3.2$ cd[K[Kcd ..
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ cdc[K n[Kexercise-data/animal-counts/animals.csv 
+bash: cd: exercise-data/animal-counts/animals.csv: Not a directory
+bash-3.2$ cd exercise-data/animal-counts/animals.csv [K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ cd ../..
+bash-3.2$ ls
+exercise-data		north-pacific-gyre
+bash-3.2$ nano s[K[K[K[K[K[Kmn[Kan grep
+Unknown locale, assuming C
+[?1049h[?1h=GREP(1)                     General Commands Manual                    GREP(1)
+
+[1mNAME[0m
+     [1mgrep[0m, [1megrep[0m, [1mfgrep[0m, [1mrgrep[0m, [1mbzgrep[0m, [1mbzegrep[0m, [1mbzfgrep[0m, [1mzgrep[0m, [1mzegrep[0m,
+     [1mzfgrep[0m – file pattern searcher
+
+[1mSYNOPSIS[0m
+     [1mgrep[0m [[1m-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz[0m] [[1m-A[0m [4mnum[24m] [[1m-B[0m [4mnum[24m] [[1m-C[0m [4mnum[24m]
+          [[1m-e[0m [4mpattern[24m] [[1m-f[0m [4mfile[24m] [[1m--binary-files=[0m[4mvalue[24m] [[1m--color[0m[[1m=[0m[4mwhen[24m]]
+          [[1m--colour[0m[[1m=[0m[4mwhen[24m]] [[1m--context=[0m[4mnum[24m] [[1m--label[0m] [[1m--line-buffered[0m]
+          [[1m--null[0m] [[4mpattern[24m] [[4mfile[24m [4m...[24m]
+
+[1mDESCRIPTION[0m
+     The [1mgrep[0m utility searches any given input files, selecting lines that
+     match one or more patterns.  By default, a pattern matches an input line
+     if the regular expression (RE) in the pattern matches the input line
+     without its trailing newline.  An empty expression matches every line.
+     Each input line that matches at least one of the patterns is written to
+     the standard output.
+
+     [1mgrep[0m is used for simple patterns and basic regular expressions (BREs);
+     [1megrep[0m can handle extended regular expressions (EREs).  See re_format(7)
+     for more information on regular expressions.  [1mfgrep[0m is quicker than both
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K[K:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[HGREP(1)                     General Commands Manual                    GREP(1)
+
+[1mNAME[0m
+     [1mgrep[0m, [1megrep[0m, [1mfgrep[0m, [1mrgrep[0m, [1mbzgrep[0m, [1mbzegrep[0m, [1mbzfgrep[0m, [1mzgrep[0m, [1mzegrep[0m,
+     [1mzfgrep[0m – file pattern searcher
+
+[1mSYNOPSIS[0m
+     [1mgrep[0m [[1m-abcdDEFGHhIiJLlMmnOopqRSsUVvwXxZz[0m] [[1m-A[0m [4mnum[24m] [[1m-B[0m [4mnum[24m] [[1m-C[0m [4mnum[24m]
+          [[1m-e[0m [4mpattern[24m] [[1m-f[0m [4mfile[24m] [[1m--binary-files=[0m[4mvalue[24m] [[1m--color[0m[[1m=[0m[4mwhen[24m]]
+          [[1m--colour[0m[[1m=[0m[4mwhen[24m]] [[1m--context=[0m[4mnum[24m] [[1m--label[0m] [[1m--line-buffered[0m]
+          [[1m--null[0m] [[4mpattern[24m] [[4mfile[24m [4m...[24m]
+
+[1mDESCRIPTION[0m
+     The [1mgrep[0m utility searches any given input files, selecting lines that
+     match one or more patterns.  By default, a pattern matches an input line
+     if the regular expression (RE) in the pattern matches the input line
+     without its trailing newline.  An empty expression matches every line.
+     Each input line that matches at least one of the patterns is written to
+     the standard output.
+
+     [1mgrep[0m is used for simple patterns and basic regular expressions (BREs);
+     [1megrep[0m can handle extended regular expressions (EREs).  See re_format(7)
+     for more information on regular expressions.  [1mfgrep[0m is quicker than both
+:[K[K[?1l>[?1049lbash-3.2$ nano count-sc[Kpecis[Kes.sh
+[?1049h[1;24r[1;1H[J[7m  UW PICO 5.09                           New Buffer                             [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[22;1H                                                                                [22;35H[7m[ New file ][27m[1;1H[J[7m  UW PICO 5.09                     File: count-species.sh                       [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[3;1H[1;32H[7mFile: count-species.sh                 Modified[27m[3;1H#[3;3HScript[3;10Hto[3;13Hreturn[3;20Hl[3;20H [3;20Htext[3;25Hfile[3;30Hcontaining[3;41Hlis[3;45H[3;44Ht[3;46Hof[3;49Hdata[3;52H [3;52Hes[3;55Hand[3;59Hthe[3;63Hnumber[3;70Hof[3;73Hthat[3;78Hps[3;79H [3;79H[3;78H [3;78Hsp[3;1H$at spe[Kc[3;8H [3;8H[3;1H# Script to return text file containing list of dates and the number of that sp[3;79H [3;79H[3;78H [3;78H[3;77H[4;1H#[4;3Hspecies[4;11Hseeno[4;15H [4;15H[4;16Hon[4;19Heach[4;24Hdate[5;1H#[5;3Harguments[6;1H#[6;3H[6;9H1.[6;12Hspecies[7;1H[7;9H[7;1H#[7;3H[7;2H[7;9H3[7;9H [7;9H2.[7;12Hdirectory[8;1H[9;1Hgrep[9;6H-w[9;9H$1[9;12H-r[9;15H$2[9;18H|[9;20Hcut[9;24H-d[9;27H:[9;29H-f[9;32H2[9;34H|[9;36Hcut[9;40H-d,[9;44H-f[9;47H1,3[9;51H>[9;53H$1.txt[10;1H[22;1H                                                                                [22;1H[7mFile Name to write :                                                            [22;22H[27m[23;15H[7mT[27m  To Files                                                     [K[24;2H[7mC[27m Cancel    [7mT[27m[7mA[27m[7mB[27m Complete                                                     [K[7m[22;22Hcount-species.sh                                           [22;38H[27m[22;1H                                                                                [22;34H[7m[ Writing... ][27m[22;1H                                                                                [22;32H[7m[ Wrote 7 lines ][27m[1;32H[7m    File: count-species.sh                     [27m[23;1H[K[24;1H[K[23;1H[7m^[27m[7mG[27m Get Help  [7m^[27m[7mO[27m WriteOut  [7m^[27m[7mR[27m Read File [7m^[27m[7mY[27m Prev Pg   [7m^[27m[7mK[27m Cut Text  [7m^[27m[7mC[27m Cur Pos   [K[24;1H[7m^[27m[7mX[27m Exit      [7m^[27m[7mJ[27m Justify   [7m^[27m[7mW[27m Where is  [7m^[27m[7mV[27m Next Pg   [7m^[27m[7mU[27m UnCut Text[7m^[27m[7mT[27m To Spell  [K[10;1H[23;1H[K[24;1H[K[?1049lbash-3.2$ bash count-species.sh bear .
+bash-3.2$ 
