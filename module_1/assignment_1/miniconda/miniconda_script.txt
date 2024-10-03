@@ -1,0 +1,1129 @@
+Script started on Wed Oct  2 19:16:17 2024
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ conda create -n test_env python numpy pandas
+Retrieving notices: ...working... done
+WARNING: A conda environment already exists at '/Users/sushant_p18/miniconda3/envs/test_env'
+Remove existing environment (y/[n])? y
+
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): \ | / - \ | / - \ | done
+Solving environment: - done
+
+## Package Plan ##
+
+  environment location: /Users/sushant_p18/miniconda3/envs/test_env
+
+  added / updated specs:
+    - numpy
+    - pandas
+    - python
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bottleneck-1.3.7           |  py312ha86b861_0         126 KB
+    ca-certificates-2024.9.24  |       hca03da5_0         131 KB
+    numexpr-2.8.7              |  py312h0f3ea24_0         134 KB
+    pandas-2.2.2               |  py312hd77ebd4_0        14.7 MB
+    python-dateutil-2.9.0post0 |  py312hca03da5_2         320 KB
+    pytz-2024.1                |  py312hca03da5_0         224 KB
+    ------------------------------------------------------------
+                                           Total:        15.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/osx-arm64::blas-1.0-openblas 
+  bottleneck         pkgs/main/osx-arm64::bottleneck-1.3.7-py312ha86b861_0 
+  bzip2              pkgs/main/osx-arm64::bzip2-1.0.8-h80987f9_6 
+  ca-certificates    pkgs/main/osx-arm64::ca-certificates-2024.9.24-hca03da5_0 
+  expat              pkgs/main/osx-arm64::expat-2.6.3-h313beb8_0 
+  libcxx             pkgs/main/osx-arm64::libcxx-14.0.6-h848a8c0_0 
+  libffi             pkgs/main/osx-arm64::libffi-3.4.4-hca03da5_1 
+  libgfortran        pkgs/main/osx-arm64::libgfortran-5.0.0-11_3_0_hca03da5_28 
+  libgfortran5       pkgs/main/osx-arm64::libgfortran5-11.3.0-h009349e_28 
+  libopenblas        pkgs/main/osx-arm64::libopenblas-0.3.21-h269037a_0 
+  llvm-openmp        pkgs/main/osx-arm64::llvm-openmp-14.0.6-hc6e5704_0 
+  ncurses            pkgs/main/osx-arm64::ncurses-6.4-h313beb8_0 
+  numexpr            pkgs/main/osx-arm64::numexpr-2.8.7-py312h0f3ea24_0 
+  numpy              pkgs/main/osx-arm64::numpy-1.26.4-py312h7f4fdc5_0 
+  numpy-base         pkgs/main/osx-arm64::numpy-base-1.26.4-py312he047099_0 
+  openssl            pkgs/main/osx-arm64::openssl-3.0.15-h80987f9_0 
+  pandas             pkgs/main/osx-arm64::pandas-2.2.2-py312hd77ebd4_0 
+  pip                pkgs/main/osx-arm64::pip-24.2-py312hca03da5_0 
+  python             pkgs/main/osx-arm64::python-3.12.5-h99e199e_1 
+  python-dateutil    pkgs/main/osx-arm64::python-dateutil-2.9.0post0-py312hca03da5_2 
+  python-tzdata      pkgs/main/noarch::python-tzdata-2023.3-pyhd3eb1b0_0 
+  pytz               pkgs/main/osx-arm64::pytz-2024.1-py312hca03da5_0 
+  readline           pkgs/main/osx-arm64::readline-8.2-h1a28f6b_0 
+  setuptools         pkgs/main/osx-arm64::setuptools-75.1.0-py312hca03da5_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  sqlite             pkgs/main/osx-arm64::sqlite-3.45.3-h80987f9_0 
+  tk                 pkgs/main/osx-arm64::tk-8.6.14-h6ba3021_0 
+  tzdata             pkgs/main/noarch::tzdata-2024a-h04d1e81_0 
+  wheel              pkgs/main/osx-arm64::wheel-0.44.0-py312hca03da5_0 
+  xz                 pkgs/main/osx-arm64::xz-5.4.6-h80987f9_1 
+  zlib               pkgs/main/osx-arm64::zlib-1.2.13-h18a0788_1 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+pandas-2.2.2         | 14.7 MB   |                                                                    |   0% 
+python-dateutil-2.9. | 320 KB    |                                                                    |   0% [A
+
+pytz-2024.1          | 224 KB    |                                                                    |   0% [A[A
+
+
+numexpr-2.8.7        | 134 KB    |                                                                    |   0% [A[A[A
+
+
+
+ca-certificates-2024 | 131 KB    |                                                                    |   0% [A[A[A[A
+
+
+
+
+bottleneck-1.3.7     | 126 KB    |                                                                    |   0% [A[A[A[A[A
+
+
+
+ca-certificates-2024 | 131 KB    | ########                                                           |  12% [A[A[A[Apandas-2.2.2         | 14.7 MB   |                                                                    |   0% 
+
+
+
+ca-certificates-2024 | 131 KB    | ################################################################## | 100% [A[A[A[A
+
+
+
+
+bottleneck-1.3.7     | 126 KB    | ########3                                                          |  13% [A[A[A[A[Apandas-2.2.2         | 14.7 MB   | #                                                                  |   2% 
+
+
+
+
+bottleneck-1.3.7     | 126 KB    | ################################################################## | 100% [A[A[A[A[Apandas-2.2.2         | 14.7 MB   | ###                                                                |   5% pandas-2.2.2         | 14.7 MB   | ####9                                                              |   8% 
+python-dateutil-2.9. | 320 KB    | ###2                                                               |   5% [Apandas-2.2.2         | 14.7 MB   | ######5                                                            |  10% 
+python-dateutil-2.9. | 320 KB    | ##########################3                                        |  40% [A
+
+pytz-2024.1          | 224 KB    | ####7                                                              |   7% [A[Apandas-2.2.2         | 14.7 MB   | ########                                                           |  12% 
+
+
+numexpr-2.8.7        | 134 KB    | #######8                                                           |  12% [A[A[A
+
+pytz-2024.1          | 224 KB    | #######################6                                           |  36% [A[A
+python-dateutil-2.9. | 320 KB    | #################################################4                 |  75% [Apandas-2.2.2         | 14.7 MB   | #########5                                                         |  14% 
+python-dateutil-2.9. | 320 KB    | ################################################################## | 100% [A
+
+
+numexpr-2.8.7        | 134 KB    | ##############################################################8    |  95% [A[A[A
+
+pytz-2024.1          | 224 KB    | ########################################################6          |  86% [A[A
+
+
+numexpr-2.8.7        | 134 KB    | ################################################################## | 100% [A[A[Apandas-2.2.2         | 14.7 MB   | ###########5                                                       |  18% pandas-2.2.2         | 14.7 MB   | #############5                                                     |  21% 
+
+pytz-2024.1          | 224 KB    | ################################################################## | 100% [A[Apandas-2.2.2         | 14.7 MB   | ###############5                                                   |  24% pandas-2.2.2         | 14.7 MB   | ##################4                                                |  28% pandas-2.2.2         | 14.7 MB   | #####################3                                             |  32% pandas-2.2.2         | 14.7 MB   | #######################9                                           |  36% pandas-2.2.2         | 14.7 MB   | ##########################2                                        |  40% pandas-2.2.2         | 14.7 MB   | ############################6                                      |  43% pandas-2.2.2         | 14.7 MB   | ################################5                                  |  49% pandas-2.2.2         | 14.7 MB   | ###################################5                               |  54% pandas-2.2.2         | 14.7 MB   | ######################################8                            |  59% pandas-2.2.2         | 14.7 MB   | #########################################7                         |  63% pandas-2.2.2         | 14.7 MB   | ############################################5                      |  68% pandas-2.2.2         | 14.7 MB   | ################################################9                  |  74% pandas-2.2.2         | 14.7 MB   | ####################################################7              |  80% pandas-2.2.2         | 14.7 MB   | ########################################################           |  85% pandas-2.2.2         | 14.7 MB   | ###########################################################2       |  90% pandas-2.2.2         | 14.7 MB   | ##############################################################2    |  94% pandas-2.2.2         | 14.7 MB   | #################################################################3 |  99% pandas-2.2.2         | 14.7 MB   | ################################################################## | 100%                                                                                                              
+                                                                                                             [A
+
+                                                                                                             [A[A
+
+
+                                                                                                             [A[A[A
+
+
+
+                                                                                                             [A[A[A[A
+
+
+
+
+                                                                                                             [A[A[A[A[A
+Preparing transaction: | / - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate test_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+bash-3.2$ conda info --envs
+# conda environments:
+#
+open_type-master         /Users/sushant_p18/.conda/envs/open_type-master
+pythonProject            /Users/sushant_p18/.conda/envs/pythonProject
+                         /Users/sushant_p18/anaconda3/envs/Lab
+                         /Users/sushant_p18/anaconda3/envs/dygiepp
+                         /Users/sushant_p18/anaconda3/envs/ml
+                         /Users/sushant_p18/anaconda3/envs/sush
+                         /Users/sushant_p18/anaconda3/envs/transformer
+base                  *  /Users/sushant_p18/miniconda3
+autogen                  /Users/sushant_p18/miniconda3/envs/autogen
+chess                    /Users/sushant_p18/miniconda3/envs/chess
+comfyenv                 /Users/sushant_p18/miniconda3/envs/comfyenv
+ml_dev                   /Users/sushant_p18/miniconda3/envs/ml_dev
+test_env                 /Users/sushant_p18/miniconda3/envs/test_env
+                         /opt/miniconda3
+
+bash-3.2$ conda acti[Kivate test_env
+
+CondaError: Run 'conda init' before 'conda activate'
+
+bash-3.2$ so[K[Kconda init
+no change     /Users/sushant_p18/miniconda3/condabin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda-env
+no change     /Users/sushant_p18/miniconda3/bin/activate
+no change     /Users/sushant_p18/miniconda3/bin/deactivate
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.sh
+no change     /Users/sushant_p18/miniconda3/etc/fish/conf.d/conda.fish
+no change     /Users/sushant_p18/miniconda3/shell/condabin/Conda.psm1
+no change     /Users/sushant_p18/miniconda3/shell/condabin/conda-hook.ps1
+no change     /Users/sushant_p18/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.csh
+no change     /Users/sushant_p18/.bash_profile
+No action taken.
+bash-3.2$ conda activate test[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda create -n my[K[Kmyenvironment python numpy pandas
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): - \ | / done
+Solving environment: \ done
+
+## Package Plan ##
+
+  environment location: /Users/sushant_p18/miniconda3/envs/myenvironment
+
+  added / updated specs:
+    - numpy
+    - pandas
+    - python
+
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/osx-arm64::blas-1.0-openblas 
+  bottleneck         pkgs/main/osx-arm64::bottleneck-1.3.7-py312ha86b861_0 
+  bzip2              pkgs/main/osx-arm64::bzip2-1.0.8-h80987f9_6 
+  ca-certificates    pkgs/main/osx-arm64::ca-certificates-2024.9.24-hca03da5_0 
+  expat              pkgs/main/osx-arm64::expat-2.6.3-h313beb8_0 
+  libcxx             pkgs/main/osx-arm64::libcxx-14.0.6-h848a8c0_0 
+  libffi             pkgs/main/osx-arm64::libffi-3.4.4-hca03da5_1 
+  libgfortran        pkgs/main/osx-arm64::libgfortran-5.0.0-11_3_0_hca03da5_28 
+  libgfortran5       pkgs/main/osx-arm64::libgfortran5-11.3.0-h009349e_28 
+  libopenblas        pkgs/main/osx-arm64::libopenblas-0.3.21-h269037a_0 
+  llvm-openmp        pkgs/main/osx-arm64::llvm-openmp-14.0.6-hc6e5704_0 
+  ncurses            pkgs/main/osx-arm64::ncurses-6.4-h313beb8_0 
+  numexpr            pkgs/main/osx-arm64::numexpr-2.8.7-py312h0f3ea24_0 
+  numpy              pkgs/main/osx-arm64::numpy-1.26.4-py312h7f4fdc5_0 
+  numpy-base         pkgs/main/osx-arm64::numpy-base-1.26.4-py312he047099_0 
+  openssl            pkgs/main/osx-arm64::openssl-3.0.15-h80987f9_0 
+  pandas             pkgs/main/osx-arm64::pandas-2.2.2-py312hd77ebd4_0 
+  pip                pkgs/main/osx-arm64::pip-24.2-py312hca03da5_0 
+  python             pkgs/main/osx-arm64::python-3.12.5-h99e199e_1 
+  python-dateutil    pkgs/main/osx-arm64::python-dateutil-2.9.0post0-py312hca03da5_2 
+  python-tzdata      pkgs/main/noarch::python-tzdata-2023.3-pyhd3eb1b0_0 
+  pytz               pkgs/main/osx-arm64::pytz-2024.1-py312hca03da5_0 
+  readline           pkgs/main/osx-arm64::readline-8.2-h1a28f6b_0 
+  setuptools         pkgs/main/osx-arm64::setuptools-75.1.0-py312hca03da5_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  sqlite             pkgs/main/osx-arm64::sqlite-3.45.3-h80987f9_0 
+  tk                 pkgs/main/osx-arm64::tk-8.6.14-h6ba3021_0 
+  tzdata             pkgs/main/noarch::tzdata-2024a-h04d1e81_0 
+  wheel              pkgs/main/osx-arm64::wheel-0.44.0-py312hca03da5_0 
+  xz                 pkgs/main/osx-arm64::xz-5.4.6-h80987f9_1 
+  zlib               pkgs/main/osx-arm64::zlib-1.2.13-h18a0788_1 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenvironment
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+bash-3.2$ conda acr[Ktivate myenvironment
+
+CondaError: Run 'conda init' before 'conda activate'
+
+bash-3.2$ conda init
+no change     /Users/sushant_p18/miniconda3/condabin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda-env
+no change     /Users/sushant_p18/miniconda3/bin/activate
+no change     /Users/sushant_p18/miniconda3/bin/deactivate
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.sh
+no change     /Users/sushant_p18/miniconda3/etc/fish/conf.d/conda.fish
+no change     /Users/sushant_p18/miniconda3/shell/condabin/Conda.psm1
+no change     /Users/sushant_p18/miniconda3/shell/condabin/conda-hook.ps1
+no change     /Users/sushant_p18/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.csh
+no change     /Users/sushant_p18/.bash_profile
+No action taken.
+bash-3.2$ conda activate myenvironment
+
+CondaError: Run 'conda init' before 'conda activate'
+
+bash-3.2$ cond a[K[Ka activate myenvironment
+
+CondaError: Run 'conda init' before 'conda activate'
+
+bash-3.2$ conda init
+no change     /Users/sushant_p18/miniconda3/condabin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda
+no change     /Users/sushant_p18/miniconda3/bin/conda-env
+no change     /Users/sushant_p18/miniconda3/bin/activate
+no change     /Users/sushant_p18/miniconda3/bin/deactivate
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.sh
+no change     /Users/sushant_p18/miniconda3/etc/fish/conf.d/conda.fish
+no change     /Users/sushant_p18/miniconda3/shell/condabin/Conda.psm1
+no change     /Users/sushant_p18/miniconda3/shell/condabin/conda-hook.ps1
+no change     /Users/sushant_p18/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /Users/sushant_p18/miniconda3/etc/profile.d/conda.csh
+no change     /Users/sushant_p18/.bash_profile
+No action taken.
+bash-3.2$ source ~/.bash_profile
+[1;36mminiconda [1;33m$ [0mconda activate myenvironment
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda install matplotlib
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /Users/sushant_p18/miniconda3/envs/myenvironment
+
+  added / updated specs:
+    - matplotlib
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    brotli-1.0.9               |       h80987f9_8          20 KB
+    brotli-bin-1.0.9           |       h80987f9_8          18 KB
+    contourpy-1.2.0            |  py312h48ca7d4_0         228 KB
+    cycler-0.11.0              |     pyhd3eb1b0_0          12 KB
+    fonttools-4.51.0           |  py312h80987f9_0         2.8 MB
+    kiwisolver-1.4.4           |  py312h313beb8_0          54 KB
+    libbrotlicommon-1.0.9      |       h80987f9_8          70 KB
+    libbrotlidec-1.0.9         |       h80987f9_8          29 KB
+    libbrotlienc-1.0.9         |       h80987f9_8         291 KB
+    matplotlib-3.9.2           |  py312hca03da5_0           8 KB
+    matplotlib-base-3.9.2      |  py312h2df2da3_0         7.8 MB
+    pyparsing-3.1.2            |  py312hca03da5_0         451 KB
+    tornado-6.4.1              |  py312h80987f9_0         866 KB
+    unicodedata2-15.1.0        |  py312h80987f9_0         532 KB
+    ------------------------------------------------------------
+                                           Total:        13.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  brotli             pkgs/main/osx-arm64::brotli-1.0.9-h80987f9_8 
+  brotli-bin         pkgs/main/osx-arm64::brotli-bin-1.0.9-h80987f9_8 
+  contourpy          pkgs/main/osx-arm64::contourpy-1.2.0-py312h48ca7d4_0 
+  cycler             pkgs/main/noarch::cycler-0.11.0-pyhd3eb1b0_0 
+  fonttools          pkgs/main/osx-arm64::fonttools-4.51.0-py312h80987f9_0 
+  freetype           pkgs/main/osx-arm64::freetype-2.12.1-h1192e45_0 
+  jpeg               pkgs/main/osx-arm64::jpeg-9e-h80987f9_3 
+  kiwisolver         pkgs/main/osx-arm64::kiwisolver-1.4.4-py312h313beb8_0 
+  lcms2              pkgs/main/osx-arm64::lcms2-2.12-hba8e193_0 
+  lerc               pkgs/main/osx-arm64::lerc-3.0-hc377ac9_0 
+  libbrotlicommon    pkgs/main/osx-arm64::libbrotlicommon-1.0.9-h80987f9_8 
+  libbrotlidec       pkgs/main/osx-arm64::libbrotlidec-1.0.9-h80987f9_8 
+  libbrotlienc       pkgs/main/osx-arm64::libbrotlienc-1.0.9-h80987f9_8 
+  libdeflate         pkgs/main/osx-arm64::libdeflate-1.17-h80987f9_1 
+  libpng             pkgs/main/osx-arm64::libpng-1.6.39-h80987f9_0 
+  libtiff            pkgs/main/osx-arm64::libtiff-4.5.1-h313beb8_0 
+  libwebp-base       pkgs/main/osx-arm64::libwebp-base-1.3.2-h80987f9_0 
+  lz4-c              pkgs/main/osx-arm64::lz4-c-1.9.4-h313beb8_1 
+  matplotlib         pkgs/main/osx-arm64::matplotlib-3.9.2-py312hca03da5_0 
+  matplotlib-base    pkgs/main/osx-arm64::matplotlib-base-3.9.2-py312h2df2da3_0 
+  openjpeg           pkgs/main/osx-arm64::openjpeg-2.5.2-h54b8e55_0 
+  packaging          pkgs/main/osx-arm64::packaging-24.1-py312hca03da5_0 
+  pillow             pkgs/main/osx-arm64::pillow-10.4.0-py312h80987f9_0 
+  pyparsing          pkgs/main/osx-arm64::pyparsing-3.1.2-py312hca03da5_0 
+  tornado            pkgs/main/osx-arm64::tornado-6.4.1-py312h80987f9_0 
+  unicodedata2       pkgs/main/osx-arm64::unicodedata2-15.1.0-py312h80987f9_0 
+  zstd               pkgs/main/osx-arm64::zstd-1.5.5-hd90d995_2 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+matplotlib-base-3.9. | 7.8 MB    |                                                                    |   0% 
+fonttools-4.51.0     | 2.8 MB    |                                                                    |   0% [A
+
+tornado-6.4.1        | 866 KB    |                                                                    |   0% [A[A
+
+
+unicodedata2-15.1.0  | 532 KB    |                                                                    |   0% [A[A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    |                                                                    |   0% [A[A[A[A
+
+
+
+
+libbrotlienc-1.0.9   | 291 KB    |                                                                    |   0% [A[A[A[A[A
+
+
+
+
+
+contourpy-1.2.0      | 228 KB    |                                                                    |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libbrotlicommon-1.0. | 70 KB     |                                                                    |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+kiwisolver-1.4.4     | 54 KB     |                                                                    |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libbrotlidec-1.0.9   | 29 KB     |                                                                    |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 20 KB     |                                                                    |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+brotli-bin-1.0.9     | 18 KB     |                                                                    |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.11.0        | 12 KB     |                                                                    |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+matplotlib-3.9.2     | 8 KB      |                                                                    |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    | ##3                                                                |   4% [A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | 1                                                                  |   0% 
+
+tornado-6.4.1        | 866 KB    | #2                                                                 |   2% [A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    | ##################7                                                |  28% [A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | #                                                                  |   2% 
+
+tornado-6.4.1        | 866 KB    | ##########9                                                        |  17% [A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    | #####################################4                             |  57% [A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | #9                                                                 |   3% 
+
+tornado-6.4.1        | 866 KB    | #######################1                                           |  35% [A[A
+
+
+unicodedata2-15.1.0  | 532 KB    | #9                                                                 |   3% [A[A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    | ################################################################## | 100% [A[A[A[A
+
+
+
+pyparsing-3.1.2      | 451 KB    | ################################################################## | 100% [A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | ######1                                                            |   9% 
+
+tornado-6.4.1        | 866 KB    | ###########################################################7       |  90% [A[A
+
+
+
+
+libbrotlienc-1.0.9   | 291 KB    | ###6                                                               |   5% [A[A[A[A[A
+
+
+unicodedata2-15.1.0  | 532 KB    | #######9                                                           |  12% [A[A[Amatplotlib-base-3.9. | 7.8 MB    | ########7                                                          |  13% 
+
+
+
+
+libbrotlienc-1.0.9   | 291 KB    | ################################################################## | 100% [A[A[A[A[A
+
+tornado-6.4.1        | 866 KB    | ################################################################## | 100% [A[Amatplotlib-base-3.9. | 7.8 MB    | ##############6                                                    |  22% 
+
+
+unicodedata2-15.1.0  | 532 KB    | #############################7                                     |  45% [A[A[Amatplotlib-base-3.9. | 7.8 MB    | #####################1                                             |  32% 
+
+
+unicodedata2-15.1.0  | 532 KB    | ###############################################6                   |  72% [A[A[Amatplotlib-base-3.9. | 7.8 MB    | #############################6                                     |  45% 
+
+
+unicodedata2-15.1.0  | 532 KB    | ################################################################## | 100% [A[A[A
+
+
+unicodedata2-15.1.0  | 532 KB    | ################################################################## | 100% [A[A[A
+
+
+
+
+
+contourpy-1.2.0      | 228 KB    | ####6                                                              |   7% [A[A[A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | #######################################7                           |  60% 
+
+
+
+
+
+
+libbrotlicommon-1.0. | 70 KB     | ###############                                                    |  23% [A[A[A[A[A[A[A
+
+
+
+
+
+
+libbrotlicommon-1.0. | 70 KB     | ################################################################## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+contourpy-1.2.0      | 228 KB    | ##################5                                                |  28% [A[A[A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | ##############################################7                    |  71% 
+
+
+
+
+
+contourpy-1.2.0      | 228 KB    | ##############################################2                    |  70% [A[A[A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | ######################################################             |  82% 
+
+
+
+
+
+contourpy-1.2.0      | 228 KB    | ################################################################## | 100% [A[A[A[A[A[Amatplotlib-base-3.9. | 7.8 MB    | #############################################################5     |  93% 
+fonttools-4.51.0     | 2.8 MB    | 3                                                                  |   1% [A
+
+
+
+
+
+
+
+kiwisolver-1.4.4     | 54 KB     | ###################4                                               |  29% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libbrotlidec-1.0.9   | 29 KB     | ####################################7                              |  56% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+kiwisolver-1.4.4     | 54 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libbrotlidec-1.0.9   | 29 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.11.0        | 12 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+brotli-bin-1.0.9     | 18 KB     | ###########################################################2       |  90% [A[A[A[A[A[A[A[A[A[A[A
+fonttools-4.51.0     | 2.8 MB    | #4                                                                 |   2% [A
+
+
+
+
+
+
+
+
+
+
+
+
+matplotlib-3.9.2     | 8 KB      | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.11.0        | 12 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+brotli-bin-1.0.9     | 18 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+matplotlib-3.9.2     | 8 KB      | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+fonttools-4.51.0     | 2.8 MB    | ##9                                                                |   4% [A
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 20 KB     | #####################################################8             |  82% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 20 KB     | ################################################################## | 100% [A[A[A[A[A[A[A[A[A[A
+fonttools-4.51.0     | 2.8 MB    | #####1                                                             |   8% [Amatplotlib-base-3.9. | 7.8 MB    | ################################################################## | 100% 
+fonttools-4.51.0     | 2.8 MB    | #######2                                                           |  11% [A
+fonttools-4.51.0     | 2.8 MB    | ##########5                                                        |  16% [A
+fonttools-4.51.0     | 2.8 MB    | #################1                                                 |  26% [A
+fonttools-4.51.0     | 2.8 MB    | ####################7                                              |  31% [A
+fonttools-4.51.0     | 2.8 MB    | ###########################3                                       |  41% [A
+fonttools-4.51.0     | 2.8 MB    | ################################                                   |  49% [A
+fonttools-4.51.0     | 2.8 MB    | ####################################4                              |  55% [A
+fonttools-4.51.0     | 2.8 MB    | #############################################9                     |  70% [A
+fonttools-4.51.0     | 2.8 MB    | #####################################################5             |  81% [A
+fonttools-4.51.0     | 2.8 MB    | ############################################################4      |  92% [A
+fonttools-4.51.0     | 2.8 MB    | ################################################################## | 100% [A                                                                                                             
+                                                                                                             [A
+
+                                                                                                             [A[A
+
+
+                                                                                                             [A[A[A
+
+
+
+                                                                                                             [A[A[A[A
+
+
+
+
+                                                                                                             [A[A[A[A[A
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                             [A[A[A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: - done
+Verifying transaction: | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda --version
+conda 24.7.1
+(myenvironment) [1;36mminiconda [1;33m$ [0mchannels
+bash: channels: command not found
+(myenvironment) [1;36mminiconda [1;33m$ [0mchannels:
+bash: channels:: command not found
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda update conda
+
+PackageNotInstalledError: Package is not installed in prefix.
+  prefix: /Users/sushant_p18/miniconda3/envs/myenvironment
+  package name: conda
+
+
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda deactivate
+(base) [1;36mminiconda [1;33m$ [0mconda update conda
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): - \ | / - \ | done
+Solving environment: - done
+
+## Package Plan ##
+
+  environment location: /Users/sushant_p18/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-24.9.1               |  py312hca03da5_0         1.1 MB
+    ------------------------------------------------------------
+                                           Total:         1.1 MB
+
+The following packages will be UPDATED:
+
+  ca-certificates                       2024.7.2-hca03da5_0 --> 2024.9.24-hca03da5_0 
+  certifi                          2024.7.4-py312hca03da5_0 --> 2024.8.30-py312hca03da5_0 
+  conda                              24.7.1-py312hca03da5_0 --> 24.9.1-py312hca03da5_0 
+  openssl                                 3.0.14-h80987f9_0 --> 3.0.15-h80987f9_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+conda-24.9.1         | 1.1 MB    |                                                                    |   0% conda-24.9.1         | 1.1 MB    | 9                                                                  |   1% conda-24.9.1         | 1.1 MB    | #############5                                                     |  21% conda-24.9.1         | 1.1 MB    | ###############################################1                   |  71% conda-24.9.1         | 1.1 MB    | ################################################################## | 100% conda-24.9.1         | 1.1 MB    | ################################################################## | 100%                                                                                                              
+Preparing transaction: | done
+Verifying transaction: - \ done
+Executing transaction: / - \ | / - \ done
+(base) [1;36mminiconda [1;33m$ [0mconda --version
+conda 24.9.1
+(base) [1;36mminiconda [1;33m$ [0mconda activate m[Kmyn[Kenvironment
+(myenvironment) [1;36mminiconda [1;33m$ [0mcoonda [K[K[K[K[Knda info
+
+     active environment : myenvironment
+    active env location : /Users/sushant_p18/miniconda3/envs/myenvironment
+            shell level : 2
+       user config file : /Users/sushant_p18/.condarc
+ populated config files : /Users/sushant_p18/.condarc
+          conda version : 24.9.1
+    conda-build version : not installed
+         python version : 3.12.4.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=m2
+                          __conda=24.9.1=0
+                          __osx=15.0=0
+                          __unix=0=0
+       base environment : /Users/sushant_p18/miniconda3  (writable)
+      conda av data dir : /Users/sushant_p18/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/osx-arm64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/osx-arm64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /Users/sushant_p18/miniconda3/pkgs
+                          /Users/sushant_p18/.conda/pkgs
+       envs directories : /Users/sushant_p18/miniconda3/envs
+                          /Users/sushant_p18/.conda/envs
+               platform : osx-arm64
+             user-agent : conda/24.9.1 requests/2.32.3 CPython/3.12.4 Darwin/24.0.0 OSX/15.0 solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8 aau/0.4.4 c/. s/. e/.
+                UID:GID : 501:20
+             netrc file : None
+           offline mode : False
+
+
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda deactivate
+(base) [1;36mminiconda [1;33m$ [0mconda deactivate[6Pinfoactivate myenvironment[13P--versionactivate myenvironment
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda list
+# packages in environment at /Users/sushant_p18/miniconda3/envs/myenvironment:
+#
+# Name                    Version                   Build  Channel
+blas                      1.0                    openblas  
+bottleneck                1.3.7           py312ha86b861_0  
+brotli                    1.0.9                h80987f9_8  
+brotli-bin                1.0.9                h80987f9_8  
+bzip2                     1.0.8                h80987f9_6  
+ca-certificates           2024.9.24            hca03da5_0  
+contourpy                 1.2.0           py312h48ca7d4_0  
+cycler                    0.11.0             pyhd3eb1b0_0  
+expat                     2.6.3                h313beb8_0  
+fonttools                 4.51.0          py312h80987f9_0  
+freetype                  2.12.1               h1192e45_0  
+jpeg                      9e                   h80987f9_3  
+kiwisolver                1.4.4           py312h313beb8_0  
+lcms2                     2.12                 hba8e193_0  
+lerc                      3.0                  hc377ac9_0  
+libbrotlicommon           1.0.9                h80987f9_8  
+libbrotlidec              1.0.9                h80987f9_8  
+libbrotlienc              1.0.9                h80987f9_8  
+libcxx                    14.0.6               h848a8c0_0  
+libdeflate                1.17                 h80987f9_1  
+libffi                    3.4.4                hca03da5_1  
+libgfortran               5.0.0           11_3_0_hca03da5_28  
+libgfortran5              11.3.0              h009349e_28  
+libopenblas               0.3.21               h269037a_0  
+libpng                    1.6.39               h80987f9_0  
+libtiff                   4.5.1                h313beb8_0  
+libwebp-base              1.3.2                h80987f9_0  
+llvm-openmp               14.0.6               hc6e5704_0  
+lz4-c                     1.9.4                h313beb8_1  
+matplotlib                3.9.2           py312hca03da5_0  
+matplotlib-base           3.9.2           py312h2df2da3_0  
+ncurses                   6.4                  h313beb8_0  
+numexpr                   2.8.7           py312h0f3ea24_0  
+numpy                     1.26.4          py312h7f4fdc5_0  
+numpy-base                1.26.4          py312he047099_0  
+openjpeg                  2.5.2                h54b8e55_0  
+openssl                   3.0.15               h80987f9_0  
+packaging                 24.1            py312hca03da5_0  
+pandas                    2.2.2           py312hd77ebd4_0  
+pillow                    10.4.0          py312h80987f9_0  
+pip                       24.2            py312hca03da5_0  
+pyparsing                 3.1.2           py312hca03da5_0  
+python                    3.12.5               h99e199e_1  
+python-dateutil           2.9.0post0      py312hca03da5_2  
+python-tzdata             2023.3             pyhd3eb1b0_0  
+pytz                      2024.1          py312hca03da5_0  
+readline                  8.2                  h1a28f6b_0  
+setuptools                75.1.0          py312hca03da5_0  
+six                       1.16.0             pyhd3eb1b0_1  
+sqlite                    3.45.3               h80987f9_0  
+tk                        8.6.14               h6ba3021_0  
+tornado                   6.4.1           py312h80987f9_0  
+tzdata                    2024a                h04d1e81_0  
+unicodedata2              15.1.0          py312h80987f9_0  
+wheel                     0.44.0          py312hca03da5_0  
+xz                        5.4.6                h80987f9_1  
+zlib                      1.2.13               h18a0788_1  
+zstd                      1.5.5                hd90d995_2  
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda list --show-channel-urls
+# packages in environment at /Users/sushant_p18/miniconda3/envs/myenvironment:
+#
+# Name                    Version                   Build  Channel
+blas                      1.0                    openblas    defaults
+bottleneck                1.3.7           py312ha86b861_0    defaults
+brotli                    1.0.9                h80987f9_8    defaults
+brotli-bin                1.0.9                h80987f9_8    defaults
+bzip2                     1.0.8                h80987f9_6    defaults
+ca-certificates           2024.9.24            hca03da5_0    defaults
+contourpy                 1.2.0           py312h48ca7d4_0    defaults
+cycler                    0.11.0             pyhd3eb1b0_0    defaults
+expat                     2.6.3                h313beb8_0    defaults
+fonttools                 4.51.0          py312h80987f9_0    defaults
+freetype                  2.12.1               h1192e45_0    defaults
+jpeg                      9e                   h80987f9_3    defaults
+kiwisolver                1.4.4           py312h313beb8_0    defaults
+lcms2                     2.12                 hba8e193_0    defaults
+lerc                      3.0                  hc377ac9_0    defaults
+libbrotlicommon           1.0.9                h80987f9_8    defaults
+libbrotlidec              1.0.9                h80987f9_8    defaults
+libbrotlienc              1.0.9                h80987f9_8    defaults
+libcxx                    14.0.6               h848a8c0_0    defaults
+libdeflate                1.17                 h80987f9_1    defaults
+libffi                    3.4.4                hca03da5_1    defaults
+libgfortran               5.0.0           11_3_0_hca03da5_28    defaults
+libgfortran5              11.3.0              h009349e_28    defaults
+libopenblas               0.3.21               h269037a_0    defaults
+libpng                    1.6.39               h80987f9_0    defaults
+libtiff                   4.5.1                h313beb8_0    defaults
+libwebp-base              1.3.2                h80987f9_0    defaults
+llvm-openmp               14.0.6               hc6e5704_0    defaults
+lz4-c                     1.9.4                h313beb8_1    defaults
+matplotlib                3.9.2           py312hca03da5_0    defaults
+matplotlib-base           3.9.2           py312h2df2da3_0    defaults
+ncurses                   6.4                  h313beb8_0    defaults
+numexpr                   2.8.7           py312h0f3ea24_0    defaults
+numpy                     1.26.4          py312h7f4fdc5_0    defaults
+numpy-base                1.26.4          py312he047099_0    defaults
+openjpeg                  2.5.2                h54b8e55_0    defaults
+openssl                   3.0.15               h80987f9_0    defaults
+packaging                 24.1            py312hca03da5_0    defaults
+pandas                    2.2.2           py312hd77ebd4_0    defaults
+pillow                    10.4.0          py312h80987f9_0    defaults
+pip                       24.2            py312hca03da5_0    defaults
+pyparsing                 3.1.2           py312hca03da5_0    defaults
+python                    3.12.5               h99e199e_1    defaults
+python-dateutil           2.9.0post0      py312hca03da5_2    defaults
+python-tzdata             2023.3             pyhd3eb1b0_0    defaults
+pytz                      2024.1          py312hca03da5_0    defaults
+readline                  8.2                  h1a28f6b_0    defaults
+setuptools                75.1.0          py312hca03da5_0    defaults
+six                       1.16.0             pyhd3eb1b0_1    defaults
+sqlite                    3.45.3               h80987f9_0    defaults
+tk                        8.6.14               h6ba3021_0    defaults
+tornado                   6.4.1           py312h80987f9_0    defaults
+tzdata                    2024a                h04d1e81_0    defaults
+unicodedata2              15.1.0          py312h80987f9_0    defaults
+wheel                     0.44.0          py312hca03da5_0    defaults
+xz                        5.4.6                h80987f9_1    defaults
+zlib                      1.2.13               h18a0788_1    defaults
+zstd                      1.5.5                hd90d995_2    defaults
+(myenvironment) [1;36mminiconda [1;33m$ [0mconda deactivate
+con(base) [1;36mminiconda [1;33m$ [0mcond [Ka info 00[K[K--envs
+# conda environments:
+#
+open_type-master         /Users/sushant_p18/.conda/envs/open_type-master
+pythonProject            /Users/sushant_p18/.conda/envs/pythonProject
+                         /Users/sushant_p18/anaconda3/envs/Lab
+                         /Users/sushant_p18/anaconda3/envs/dygiepp
+                         /Users/sushant_p18/anaconda3/envs/ml
+                         /Users/sushant_p18/anaconda3/envs/sush
+                         /Users/sushant_p18/anaconda3/envs/transformer
+base                  *  /Users/sushant_p18/miniconda3
+autogen                  /Users/sushant_p18/miniconda3/envs/autogen
+chess                    /Users/sushant_p18/miniconda3/envs/chess
+comfyenv                 /Users/sushant_p18/miniconda3/envs/comfyenv
+ml_dev                   /Users/sushant_p18/miniconda3/envs/ml_dev
+myenvironment            /Users/sushant_p18/miniconda3/envs/myenvironment
+test_env                 /Users/sushant_p18/miniconda3/envs/test_env
+                         /opt/miniconda3
+
+(base) [1;36mminiconda [1;33m$ [0mconda remove --name test_env --all
+
+Remove all packages in environment /Users/sushant_p18/miniconda3/envs/test_env:
+
+
+## Package Plan ##
+
+  environment location: /Users/sushant_p18/miniconda3/envs/test_env
+
+
+The following packages will be REMOVED:
+
+  blas-1.0-openblas
+  bottleneck-1.3.7-py312ha86b861_0
+  bzip2-1.0.8-h80987f9_6
+  ca-certificates-2024.9.24-hca03da5_0
+  expat-2.6.3-h313beb8_0
+  libcxx-14.0.6-h848a8c0_0
+  libffi-3.4.4-hca03da5_1
+  libgfortran-5.0.0-11_3_0_hca03da5_28
+  libgfortran5-11.3.0-h009349e_28
+  libopenblas-0.3.21-h269037a_0
+  llvm-openmp-14.0.6-hc6e5704_0
+  ncurses-6.4-h313beb8_0
+  numexpr-2.8.7-py312h0f3ea24_0
+  numpy-1.26.4-py312h7f4fdc5_0
+  numpy-base-1.26.4-py312he047099_0
+  openssl-3.0.15-h80987f9_0
+  pandas-2.2.2-py312hd77ebd4_0
+  pip-24.2-py312hca03da5_0
+  python-3.12.5-h99e199e_1
+  python-dateutil-2.9.0post0-py312hca03da5_2
+  python-tzdata-2023.3-pyhd3eb1b0_0
+  pytz-2024.1-py312hca03da5_0
+  readline-8.2-h1a28f6b_0
+  setuptools-75.1.0-py312hca03da5_0
+  six-1.16.0-pyhd3eb1b0_1
+  sqlite-3.45.3-h80987f9_0
+  tk-8.6.14-h6ba3021_0
+  tzdata-2024a-h04d1e81_0
+  wheel-0.44.0-py312hca03da5_0
+  xz-5.4.6-h80987f9_1
+  zlib-1.2.13-h18a0788_1
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Everything found within the environment (/Users/sushant_p18/miniconda3/envs/test_env), including any conda environment configurations and any non-conda files, will be deleted. Do you wish to continue?
+ (y/[n])? y
+
+(base) [1;36mminiconda [1;33m$ [0mconda remove --name test_env --all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pinfo --envs
+# conda environments:
+#
+open_type-master         /Users/sushant_p18/.conda/envs/open_type-master
+pythonProject            /Users/sushant_p18/.conda/envs/pythonProject
+                         /Users/sushant_p18/anaconda3/envs/Lab
+                         /Users/sushant_p18/anaconda3/envs/dygiepp
+                         /Users/sushant_p18/anaconda3/envs/ml
+                         /Users/sushant_p18/anaconda3/envs/sush
+                         /Users/sushant_p18/anaconda3/envs/transformer
+base                  *  /Users/sushant_p18/miniconda3
+autogen                  /Users/sushant_p18/miniconda3/envs/autogen
+chess                    /Users/sushant_p18/miniconda3/envs/chess
+comfyenv                 /Users/sushant_p18/miniconda3/envs/comfyenv
+ml_dev                   /Users/sushant_p18/miniconda3/envs/ml_dev
+myenvironment            /Users/sushant_p18/miniconda3/envs/myenvironment
+                         /opt/miniconda3
+
+(base) [1;36mminiconda [1;33m$ [0mconda c[Kenv create 0n ENVNAME [K[K[K[K[K[K[K[Ktest_env --file env.yml
+/Users/sushant_p18/miniconda3/lib/python3.12/argparse.py:2005: FutureWarning: `remote_definition` is deprecated and will be removed in 25.9. Use `conda env create --file=URL` instead.
+  action(self, namespace, argument_values, option_string)
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: unrecognized arguments: test_env
+(base) [1;36mminiconda [1;33m$ [0mconda clean --all
+Will remove 265 (463.8 MB) tarball(s).
+Proceed ([y]/n)? y
+
+Will remove 1 index cache(s).
+Proceed ([y]/n)? y
+
+Will remove 14 (86.9 MB) package(s).
+Proceed ([y]/n)? y
+
+There are no tempfile(s) to remove.
+There are no logfile(s) to remove.
+(base) [1;36mminiconda [1;33m$ [0mclear
+[H[2J[3J(base) [1;36mminiconda [1;33m$ [0mexit[Kt
+exit
+
+Script done on Thu Oct  3 12:07:40 2024
