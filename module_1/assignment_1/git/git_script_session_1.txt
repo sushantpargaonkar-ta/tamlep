@@ -1,0 +1,2008 @@
+Script started on Thu Oct  3 12:50:25 2024
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ f[Kgit v[K--version
+it version 2.46.2
+bash-3.2$ fi[K[Kg[Kg[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m./[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ gi [Kt add *.txt
+bash-3.2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   git_script.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ i[Kgit commit -m "initial version[K[K[K[K[K[K[Kgit sc[K[Krecorded session version"
+[main 3c2a4ad] initial git recorded session version
+ 1 file changed, 27 insertions(+)
+ create mode 100644 module_1/assignment_1/git/git_script.txt
+bash-3.2$ got [K[K[Kit status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ tor[Kuch README
+bash-3.2$ ls
+README		git_script.txt
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mREADME[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add README [K
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ touch CONTRIBUTING.md
+bash-3.2$ git[K[K[Kgit status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mCONTRIBUTING.md[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ giot[K[Kt add CONTRIBUTING.md [K
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   CONTRIBUTING.md[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ gti[K[Kit add CONTRIBUTING.md [K
+bash-3.2$ git staT[Ktus
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ git status -s
+ [31mM[m ../../.DS_Store
+[32mA[m  CONTRIBUTING.md
+[32mA[m  README
+ [31mM[m git_script.txt
+[31m??[m ../../../.DS_Store
+[31m??[m ../.DS_Store
+[31m??[m ../my_conda_session
+[31m??[m ../my_git_session
+[31m??[m ../my_unix_session.txt
+
+Script done on 2023-11-09 23:02:34+05:30 [COMMAND_EXIT_CODE="0"]
+bash-3.2$ ;2R3R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e;2R3R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1 
+e;2R3R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e;2R3R1;95;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e;2R3R1;9 
+5;0c10;rgb:ffff/ffff/ffff11;rgb:1e1e/1e1e/1e1e
+bash-3.2$ cat .gitignore
+cat: .gitignore: No such file or directory
+bash-3.2$ git diff
+[?1h=
+[1mdiff --git a/module_1/.DS_Store b/module_1/.DS_Store[m[m
+[1mindex 31809df..83d51c5 100644[m[m
+Binary files a/module_1/.DS_Store and b/module_1/.DS_Store differ[m
+[1mdiff --git a/module_1/assignment_1/git/git_script.txt b/module_1/assignment_1/git/git_script.txt[m[m
+[1mindex 9b560fb..5fce2ff 100644[m[m
+[1m--- a/module_1/assignment_1/git/git_script.txt[m[m
+[1m+++ b/module_1/assignment_1/git/git_script.txt[m[m
+[36m@@ -25,3 +25,116614 @@[m [mUntracked files:[m[m
+ [m[m
+ no changes added to commit (use "git add" and/or "git commit -a")[m[m
+ bash-3.2$ git add *.txt[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_conda_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_unix_session.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git commit -m "initial git recorded session version"[m[41m[7m^M[27m[m[m
+[32m+[m[32m[main 3c2a4ad] initial git recorded session version[m[41m[7m^M[27m[m[m
+[32m+[m[32m 1 file changed, 27 insertions(+)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 module_1/assignment_1/git/git_script.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_conda_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_unix_session.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ touch README[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ ls[m[41m[7m^M[27m[m[m
+[32m+[m[32mREADME         git_script.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+:[K
+[K[?1l>bash-3.2$ git diff -staged
+[?1h=
+error: invalid option: -staged[m
+usage: git diff [<options>] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...][m
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...][m
+   or: git diff [<options>] <blob> <blob>[m
+   or: git diff [<options>] --no-index [--] <path> <path>[m
+[m
+common diff options:[m
+  -z            output diff-raw with lines terminated with NUL.[m
+  -p            output patch format.[m
+  -u            synonym for -p.[m
+  --patch-with-raw[m
+                output both a patch and the diff-raw format.[m
+  --stat        show diffstat instead of patch.[m
+  --numstat     show numeric diffstat instead of patch.[m
+  --patch-with-stat[m
+                output a patch and prepend its diffstat.[m
+  --name-only   show only names of changed files.[m
+  --name-status show names and status of changed files.[m
+  --full-index  show full object name on index lines.[m
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.[m
+  -R            swap input file pairs.[m
+  -B            detect complete rewrites.[m
+  -M            detect renames.[m
+  -C            detect copies.[m
+  --find-copies-harder[m
+                try unchanged files as candidate for copy detection.[m
+  -l<n>         limit rename attempts up to <n> paths.[m
+  -O<file>      reorder diffs according to the <file>.[m
+  -S<string>    find filepair whose only one side contains the string.[m
+  --pickaxe-all[m
+                show all files diff when -S is used and hit is found.[m
+  -a  --text    treat all files as text.[m
+[m
+
+[K[?1l>bash-3.2$ git diff -staged-staged[C[C[C[C[C[C
+[?1h=
+[1mdiff --git a/module_1/assignment_1/git/CONTRIBUTING.md b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..54553f0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32m# This is an example file[m[m
+\ No newline at end of file[m[m
+[1mdiff --git a/module_1/assignment_1/git/README b/module_1/assignment_1/git/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+
+[K[?1l>bash-3.2$ git add CONTRIBUTING.md 
+bash-3.2$ echo "# test line" >> CONTRIBUTING.md [K
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   CONTRIBUTING.md[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+bash-3.2$ git diff
+[?1h=
+[1mdiff --git a/module_1/.DS_Store b/module_1/.DS_Store[m[m
+[1mindex 31809df..83d51c5 100644[m[m
+Binary files a/module_1/.DS_Store and b/module_1/.DS_Store differ[m
+[1mdiff --git a/module_1/assignment_1/git/CONTRIBUTING.md b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1mindex 54553f0..5921ad8 100644[m[m
+[1m--- a/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1m+++ b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[36m@@ -1 +1 @@[m[m
+[31m-# This is an example file[m[m
+\ No newline at end of file[m[m
+[32m+[m[32m# This is an example file# test line[m[m
+[1mdiff --git a/module_1/assignment_1/git/git_script.txt b/module_1/assignment_1/git/git_script.txt[m[m
+[1mindex 9b560fb..f39ce78 100644[m[m
+[1m--- a/module_1/assignment_1/git/git_script.txt[m[m
+[1m+++ b/module_1/assignment_1/git/git_script.txt[m[m
+[36m@@ -25,3 +25,116754 @@[m [mUntracked files:[m[m
+ [m[m
+ no changes added to commit (use "git add" and/or "git commit -a")[m[m
+ bash-3.2$ git add *.txt[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_conda_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_unix_session.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git commit -m "initial git recorded session version"[m[41m[7m^M[27m[m[m
+[32m+[m[32m[main 3c2a4ad] initial git recorded session version[m[41m[7m^M[27m[m[m
+[32m+[m[32m 1 file changed, 27 insertions(+)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 module_1/assignment_1/git/git_script.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_conda_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_unix_session.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+:[K
+[K:[K
+[K[?1l>bash-3.2$ clear
+[H[2J[3Jbash-3.2$ git diff -cached
+[?1h=
+error: invalid option: -cached[m
+usage: git diff [<options>] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...][m
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...][m
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...][m
+   or: git diff [<options>] <blob> <blob>[m
+   or: git diff [<options>] --no-index [--] <path> <path>[m
+[m
+common diff options:[m
+  -z            output diff-raw with lines terminated with NUL.[m
+  -p            output patch format.[m
+  -u            synonym for -p.[m
+  --patch-with-raw[m
+                output both a patch and the diff-raw format.[m
+  --stat        show diffstat instead of patch.[m
+  --numstat     show numeric diffstat instead of patch.[m
+  --patch-with-stat[m
+                output a patch and prepend its diffstat.[m
+  --name-only   show only names of changed files.[m
+  --name-status show names and status of changed files.[m
+  --full-index  show full object name on index lines.[m
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.[m
+  -R            swap input file pairs.[m
+  -B            detect complete rewrites.[m
+  -M            detect renames.[m
+  -C            detect copies.[m
+  --find-copies-harder[m
+                try unchanged files as candidate for copy detection.[m
+  -l<n>         limit rename attempts up to <n> paths.[m
+  -O<file>      reorder diffs according to the <file>.[m
+  -S<string>    find filepair whose only one side contains the string.[m
+  --pickaxe-all[m
+                show all files diff when -S is used and hit is found.[m
+  -a  --text    treat all files as text.[m
+[m
+
+[K[?1l>bash-3.2$ git s[Kdiff 0s[K[K--staged
+[?1h=
+[1mdiff --git a/module_1/assignment_1/git/CONTRIBUTING.md b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..54553f0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32m# This is an example file[m[m
+\ No newline at end of file[m[m
+[1mdiff --git a/module_1/assignment_1/git/README b/module_1/assignment_1/git/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+
+[K[?1l>bash-3.2$ git diff --staged[1Pcached-cached[C[C[C[C[C[C
+[?1h=
+[1mdiff --git a/module_1/assignment_1/git/CONTRIBUTING.md b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..54553f0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32m# This is an example file[m[m
+\ No newline at end of file[m[m
+[1mdiff --git a/module_1/assignment_1/git/README b/module_1/assignment_1/git/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..e69de29[m[m
+
+[K[?1l>bash-3.2$ git difftool --tool-helo
+error: invalid option: --tool-helo
+usage: git diff [<options>] [<commit>] [--] [<path>...]
+   or: git diff [<options>] --cached [--merge-base] [<commit>] [--] [<path>...]
+   or: git diff [<options>] [--merge-base] <commit> [<commit>...] <commit> [--] [<path>...]
+   or: git diff [<options>] <commit>...<commit> [--] [<path>...]
+   or: git diff [<options>] <blob> <blob>
+   or: git diff [<options>] --no-index [--] <path> <path>
+
+common diff options:
+  -z            output diff-raw with lines terminated with NUL.
+  -p            output patch format.
+  -u            synonym for -p.
+  --patch-with-raw
+                output both a patch and the diff-raw format.
+  --stat        show diffstat instead of patch.
+  --numstat     show numeric diffstat instead of patch.
+  --patch-with-stat
+                output a patch and prepend its diffstat.
+  --name-only   show only names of changed files.
+  --name-status show names and status of changed files.
+  --full-index  show full object name on index lines.
+
+  --abbrev=<n>  abbreviate object names in diff-tree header and diff-raw.
+  -R            swap input file pairs.
+  -B            detect complete rewrites.
+  -M            detect renames.
+  -C            detect copies.
+  --find-copies-harder
+                try unchanged files as candidate for copy detection.
+  -l<n>         limit rename attempts up to <n> paths.
+  -O<file>      reorder diffs according to the <file>.
+  -S<string>    find filepair whose only one side contains the string.
+  --pickaxe-all
+                show all files diff when -S is used and hit is found.
+  -a  --text    treat all files as text.
+
+bash-3.2$ git difftool --tool-helo[C[Kp
+'git difftool --tool=<tool>' may be set to one of the following:
+		opendiff         Use FileMerge (requires a graphical session)
+		vimdiff          Use Vim
+
+The following tools are valid, but not currently available:
+		araxis           Use Araxis Merge (requires a graphical session)
+		bc               Use Beyond Compare (requires a graphical session)
+		bc3              Use Beyond Compare (requires a graphical session)
+		bc4              Use Beyond Compare (requires a graphical session)
+		codecompare      Use Code Compare (requires a graphical session)
+		deltawalker      Use DeltaWalker (requires a graphical session)
+		diffmerge        Use DiffMerge (requires a graphical session)
+		diffuse          Use Diffuse (requires a graphical session)
+		ecmerge          Use ECMerge (requires a graphical session)
+		emerge           Use Emacs' Emerge
+		examdiff         Use ExamDiff Pro (requires a graphical session)
+		guiffy           Use Guiffy's Diff Tool (requires a graphical session)
+		gvimdiff         Use gVim (requires a graphical session)
+		kdiff3           Use KDiff3 (requires a graphical session)
+		kompare          Use Kompare (requires a graphical session)
+		meld             Use Meld (requires a graphical session)
+		nvimdiff         Use Neovim
+		p4merge          Use HelixCore P4Merge (requires a graphical session)
+		smerge           Use Sublime Merge (requires a graphical session)
+		tkdiff           Use TkDiff (requires a graphical session)
+		winmerge         Use WinMerge (requires a graphical session)
+		xxdiff           Use xxdiff (requires a graphical session)
+
+Some of the tools listed above only work in a windowed
+environment. If run in a terminal-only session, they will fail.
+bash-3.2$ git c[K[K[K[K[Kgit commit -m "Story 1:[K[K2;[K[K2: git session" "o"f" "[1P"[1P"[1P"f"[1P"[1P"[C[1@t[1@e[1@m[1@l[1P[1@l[1@e[1@p[1P[1@a[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C
+[main bda2556] Story 2: tamlep git session
+ 2 files changed, 1 insertion(+)
+ create mode 100644 module_1/assignment_1/git/CONTRIBUTING.md
+ create mode 100644 module_1/assignment_1/git/README
+bash-3.2$ gist[K[Kt status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   CONTRIBUTING.md[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git commit -1 [K[Ka -m "add new [K[K[K[K[K[K[K[Kchecking withu[Kou[K[K[K[K[K[K[K[K[K[K[K[K[K[Kommit without staging"
+[main d41eaae] commit without staging
+ 3 files changed, 116971 insertions(+), 1 deletion(-)
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31m../my_conda_session[m
+	[31m../my_git_session[m
+	[31m../my_unix_session.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ rm ../my_C[Kconda_session [K
+bash-3.2$ r, [K[Kn[Km ../my_git_session [K
+bash-3.2$ rm ../my_unix_session.txt [K
+bash-3.2$ git stati[Ki[Kus
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git log
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+[33mcommit a8ef032af719456e549d5849414ddeca7249d729[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:04:25 2024 +0530[m
+[m
+    unix-shell tutorial internal question[m
+[m
+[33mcommit 494344f98fe7b66f4f3c7d6b91467df031e4329b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:03:48 2024 +0530[m
+[m
+    Recorded session for Unix shell tutorial[m
+[m
+[33mcommit 5eef25f312a5146dede58f7a38efaffc2884b331[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 18:18:35 2024 +0530[m
+[m
+    intermidiate commit for module_1[m
+[m
+[33mcommit 84a7fcf7a78d07bdb7a7dba59e23ffa8727c18ad[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Tue Oct 1 13:45:06 2024 +0530[m
+[m
+    initial commit[m
+[m
+[33mcommit c203097f919ce31ac99009392f6e3832fdb93aa7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Tue Oct 1 13:34:42 2024 +0530[m
+[m
+    Initial commit[m
+
+[K[?1l>bash-3.2$ git log -p -2
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+[1mdiff --git a/module_1/.DS_Store b/module_1/.DS_Store[m[m
+[1mindex 31809df..83d51c5 100644[m[m
+Binary files a/module_1/.DS_Store and b/module_1/.DS_Store differ[m
+[1mdiff --git a/module_1/assignment_1/git/CONTRIBUTING.md b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1mindex 54553f0..5921ad8 100644[m[m
+[1m--- a/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[1m+++ b/module_1/assignment_1/git/CONTRIBUTING.md[m[m
+[36m@@ -1 +1 @@[m[m
+[31m-# This is an example file[m[m
+\ No newline at end of file[m[m
+[32m+[m[32m# This is an example file# test line[m[m
+[1mdiff --git a/module_1/assignment_1/git/git_script.txt b/module_1/assignment_1/git/git_script.txt[m[m
+[1mindex 9b560fb..806df5a 100644[m[m
+[1m--- a/module_1/assignment_1/git/git_script.txt[m[m
+[1m+++ b/module_1/assignment_1/git/git_script.txt[m[m
+[36m@@ -25,3 +25,116972 @@[m [mUntracked files:[m[m
+ [m[m
+ no changes added to commit (use "git add" and/or "git commit -a")[m[m
+ bash-3.2$ git add *.txt[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore --staged <file>..." to unstage)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[32mnew file:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_conda_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_git_session[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31m../my_unix_session.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git commit -m "initial git recorded session version"[m[41m[7m^M[27m[m[m
+[32m+[m[32m[main 3c2a4ad] initial git recorded session version[m[41m[7m^M[27m[m[m
+[32m+[m[32m 1 file changed, 27 insertions(+)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 module_1/assignment_1/git/git_script.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32mbash-3.2$ git status[m[41m[7m^M[27m[m[m
+[32m+[m[32mOn branch main[m[41m[7m^M[27m[m[m
+[32m+[m[32mYour branch is ahead of 'origin/main' by 1 commit.[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git push" to publish your local commits)[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git restore <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   ../../.DS_Store[m[m[41m[7m^M[27m[m[m
+[32m+[m       [32m[31mmodified:   git_script.txt[m[m[41m[7m^M[27m[m[m
+[32m+[m[41m[7m^M[27m[m[m
+[32m+[m[32mUntracked files:[m[41m[7m^M[27m[m[m
+[32m+[m[32m  (use "git add <file>..." to include in what will be committed)[m[41m[7m^M[27m[m[m
+:[K
+[K[?1l>bash-3.2$ git log --stat[K[K[K[Kstat
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[33m[m[1;36m[m[33m[m[1;32main[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[31m[m> [32m6148[m bytes[m
+[m
+[32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[32m++++++++++++++++[m[m
+[m
+[m
+[33m[m[33m[m[1;31min[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+in [31m0[m -> [32m8278[m bytes[m
+29 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+                                        |   0[m
+                                        |   0[m
+                                        |   0[m
+.DS_Store                               | Bin[m
+bear.txt                                |   0[m
+count-species.sh                        |   0[m
+count-women.sh                          |   0[m
+exercise-data/.DS_Store                 | Bin[m
+exercise-data/alkanes/.DS_Store         | Bin[m
+exercise-data/alkanes/alkanes.pdb       |   0[m
+exercise-data/alkanes/all.pdb           |   0[m
+exercise-data/alkanes/cubane.pdb        |   0[m
+exercise-data/alkanes/ethane.pdb        |   0[m
+exercise-data/alkanes/lengths.txt       |   0[m
+exercise-data/alkanes/longest.sh        |   0[m
+exercise-data/alkanes/methane.pdb       |   0[m
+exercise-data/alkanes/middle.sh         |   0[m
+exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K[7mCannot edit standard input  (press RETURN)[27m[65;1H[K
+[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[33m[m[1;36m[m[33m[m[1;32main[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[31m[m> [32m6148[m bytes[m
+[m
+[32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[32m++++++++++++++++[m[m
+[m
+[m
+[33m[m[33m[m[1;31min[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+in [31m0[m -> [32m8278[m bytes[m
+29 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+                                        |   0[m
+                                        |   0[m
+                                        |   0[m
+.DS_Store                               | Bin[m
+bear.txt                                |   0[m
+count-species.sh                        |   0[m
+count-women.sh                          |   0[m
+exercise-data/.DS_Store                 | Bin[m
+exercise-data/alkanes/.DS_Store         | Bin[m
+exercise-data/alkanes/alkanes.pdb       |   0[m
+exercise-data/alkanes/all.pdb           |   0[m
+exercise-data/alkanes/cubane.pdb        |   0[m
+exercise-data/alkanes/ethane.pdb        |   0[m
+exercise-data/alkanes/lengths.txt       |   0[m
+exercise-data/alkanes/longest.sh        |   0[m
+exercise-data/alkanes/methane.pdb       |   0[m
+exercise-data/alkanes/middle.sh         |   0[m
+exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K
+[K:[K
+[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[33m[m[1;36m[m[33m[m[1;32main[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[31m[m> [32m6148[m bytes[m
+[m
+[32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[32m++++++++++++++++[m[m
+[m
+[m
+[33m[m[33m[m[1;31min[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+in [31m0[m -> [32m8278[m bytes[m
+29 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+                                        |   0[m
+                                        |   0[m
+                                        |   0[m
+.DS_Store                               | Bin[m
+bear.txt                                |   0[m
+count-species.sh                        |   0[m
+count-women.sh                          |   0[m
+exercise-data/.DS_Store                 | Bin[m
+exercise-data/alkanes/.DS_Store         | Bin[m
+exercise-data/alkanes/alkanes.pdb       |   0[m
+exercise-data/alkanes/all.pdb           |   0[m
+exercise-data/alkanes/cubane.pdb        |   0[m
+exercise-data/alkanes/ethane.pdb        |   0[m
+exercise-data/alkanes/lengths.txt       |   0[m
+exercise-data/alkanes/longest.sh        |   0[m
+exercise-data/alkanes/methane.pdb       |   0[m
+exercise-data/alkanes/middle.sh         |   0[m
+exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[33m[m[1;36m[m[33m[m[1;32main[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[31m[m> [32m6148[m bytes[m
+[m
+[32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+[32m++++++++++++++++[m[m
+[m
+[m
+[33m[m[33m[m[1;31min[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+ics.com>[m
+[m
+[m
+[m
+[m
+in [31m0[m -> [32m8278[m bytes[m
+29 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+[m
+[m
+[m
+ics.com>[m
+[m
+[m
+[m
+[m
+                                        |   0[m
+                                        |   0[m
+                                        |   0[m
+.DS_Store                               | Bin[m
+bear.txt                                |   0[m
+count-species.sh                        |   0[m
+count-women.sh                          |   0[m
+exercise-data/.DS_Store                 | Bin[m
+exercise-data/alkanes/.DS_Store         | Bin[m
+exercise-data/alkanes/alkanes.pdb       |   0[m
+exercise-data/alkanes/all.pdb           |   0[m
+exercise-data/alkanes/cubane.pdb        |   0[m
+exercise-data/alkanes/ethane.pdb        |   0[m
+exercise-data/alkanes/lengths.txt       |   0[m
+exercise-data/alkanes/longest.sh        |   0[m
+exercise-data/alkanes/methane.pdb       |   0[m
+exercise-data/alkanes/middle.sh         |   0[m
+exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K[?1l>bash-3.2$ cler[Kar
+[H[2J[3Jbash-3.2$ git log --sa[Ktar[Kt
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ module_1/.DS_Store                        |    Bin [31m6148[m -> [32m6148[m bytes[m
+ module_1/assignment_1/git/CONTRIBUTING.md |      2 [32m+[m[31m-[m[m
+ module_1/assignment_1/git/git_script.txt  | 116969 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ module_1/assignment_1/git/CONTRIBUTING.md | 1 [32m+[m[m
+ module_1/assignment_1/git/README          | 0[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ module_1/assignment_1/git/git_script.txt | 27 [32m+++++++++++++++++++++++++++[m[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ module_1/assignment_1/miniconda/miniconda_script     |  Bin [31m0[m -> [32m8278[m bytes[m
+ module_1/assignment_1/miniconda/miniconda_script.txt | 1129 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ module_1/{ => assignment_1/unix_shell}/logfile                                                   |   0[m
+ module_1/{ => assignment_1/unix_shell}/longest.sh                                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/my_typescript.txt                                         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/.DS_Store                               | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/bear.txt                                |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-species.sh                        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/count-women.sh                          |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/.DS_Store                 | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/.DS_Store         | Bin[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/all.pdb           |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/cubane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/ethane.pdb        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/lengths.txt       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/longest.sh        |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/methane.pdb       |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/middle.sh         |   0[m
+ module_1/{ => assignment_1/unix_shell}/shell-lesson-data/exercise-data/alkanes/octane.pdb        |   0[m
+:[K
+[K[?1l>bash-3.2$ go[Kit loh [K[Kg --pretty=online
+fatal: invalid --pretty format: online
+bash-3.2$ git log --pretty=online[K[K[K[K[K[Kshort
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    commit without staging[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    Story 2: tamlep git session[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    initial git recorded session version[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    added miniconda recorded session[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    reorganised codebase[m
+[m
+[33mcommit a8ef032af719456e549d5849414ddeca7249d729[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    unix-shell tutorial internal question[m
+[m
+[33mcommit 494344f98fe7b66f4f3c7d6b91467df031e4329b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    Recorded session for Unix shell tutorial[m
+[m
+[33mcommit 5eef25f312a5146dede58f7a38efaffc2884b331[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    intermidiate commit for module_1[m
+[m
+[33mcommit 84a7fcf7a78d07bdb7a7dba59e23ffa8727c18ad[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    initial commit[m
+[m
+[33mcommit c203097f919ce31ac99009392f6e3832fdb93aa7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+[m
+    Initial commit[m
+
+[K[?1l>bash-3.2$ l[Kgit log --pretty=format:"%h - %an, %ar : %s"
+[?1h=
+d41eaae - sushantpargaonkar-ta, 3 hours ago : commit without staging[m
+bda2556 - sushantpargaonkar-ta, 3 hours ago : Story 2: tamlep git session[m
+3c2a4ad - sushantpargaonkar-ta, 4 hours ago : initial git recorded session version[m
+33bf53d - sushantpargaonkar-ta, 4 hours ago : added miniconda recorded session[m
+e6c1a45 - sushantpargaonkar-ta, 21 hours ago : reorganised codebase[m
+a8ef032 - sushantpargaonkar-ta, 22 hours ago : unix-shell tutorial internal question[m
+494344f - sushantpargaonkar-ta, 22 hours ago : Recorded session for Unix shell tutorial[m
+5eef25f - sushantpargaonkar-ta, 22 hours ago : intermidiate commit for module_1[m
+84a7fcf - sushantpargaonkar-ta, 2 days ago : initial commit[m
+c203097 - sushantpargaonkar-ta, 2 days ago : Initial commit[m
+
+[K[?1l>bash-3.2$ log --pr[K[K[K[K[K[K[K[Kgit log --prer[Ktty=format:"%h %s" --h[Kgraph
+[?1h=
+* d41eaae commit without staging[m
+* bda2556 Story 2: tamlep git session[m
+* 3c2a4ad initial git recorded session version[m
+* 33bf53d added miniconda recorded session[m
+* e6c1a45 reorganised codebase[m
+* a8ef032 unix-shell tutorial internal question[m
+* 494344f Recorded session for Unix shell tutorial[m
+* 5eef25f intermidiate commit for module_1[m
+* 84a7fcf initial commit[m
+* c203097 Initial commit[m
+
+[K[?1l>bash-3.2$ git log --shortstat
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+ 3 files changed, 116970 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+ 2 files changed, 1 insertion(+)[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+ 1 file changed, 27 insertions(+)[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+[m
+ 2 files changed, 1129 insertions(+)[m
+[m
+[33mcommit e6c1a453e132fc0a335557d897b3692194a51f62[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:11:23 2024 +0530[m
+[m
+    reorganised codebase[m
+[m
+ 80 files changed, 0 insertions(+), 0 deletions(-)[m
+[m
+[33mcommit a8ef032af719456e549d5849414ddeca7249d729[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:04:25 2024 +0530[m
+[m
+    unix-shell tutorial internal question[m
+[m
+ 1 file changed, 5 insertions(+)[m
+[m
+[33mcommit 494344f98fe7b66f4f3c7d6b91467df031e4329b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 19:03:48 2024 +0530[m
+[m
+    Recorded session for Unix shell tutorial[m
+[m
+ 1 file changed, 1155 insertions(+), 1 deletion(-)[m
+[m
+[33mcommit 5eef25f312a5146dede58f7a38efaffc2884b331[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 18:18:35 2024 +0530[m
+[m
+    intermidiate commit for module_1[m
+[m
+ 80 files changed, 28922 insertions(+)[m
+[m
+:[K
+[K[?1l>bash-3.2$ git loh[Kg --pretty=online
+fatal: invalid --pretty format: online
+bash-3.2$ git log --pretty=onlineeline[C[C[C[C
+[?1h=
+[33md41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m commit without staging[m
+[33mbda25567a66a30b5dcd77f060eed003e62c8a29b[m Story 2: tamlep git session[m
+[33m3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m initial git recorded session version[m
+[33m33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m added miniconda recorded session[m
+[33me6c1a453e132fc0a335557d897b3692194a51f62[m reorganised codebase[m
+[33ma8ef032af719456e549d5849414ddeca7249d729[m unix-shell tutorial internal question[m
+[33m494344f98fe7b66f4f3c7d6b91467df031e4329b[m Recorded session for Unix shell tutorial[m
+[33m5eef25f312a5146dede58f7a38efaffc2884b331[m intermidiate commit for module_1[m
+[33m84a7fcf7a78d07bdb7a7dba59e23ffa8727c18ad[m initial commit[m
+[33mc203097f919ce31ac99009392f6e3832fdb93aa7[m Initial commit[m
+
+[K[?1l>bash-3.2$ git log --since=2.hours
+[?1h=
+
+[K[?1l>bash-3.2$ git log --since=2.hours[1P.hours5.hours[C[C[C[C[C[C
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+[33mcommit 3c2a4ad76ae2aa3da5619562c1a43671d524dbf7[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:51:19 2024 +0530[m
+[m
+    initial git recorded session version[m
+[m
+[33mcommit 33bf53d1a38db3553de2c727c2fb1fa50fda7c37[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 12:08:31 2024 +0530[m
+[m
+    added miniconda recorded session[m
+
+[K[?1l>bash-3.2$ git log -S function_name
+[?1h=
+
+[K[?1l>bash-3.2$ git log -S function_name[K[K[K[K[K[K[K[K[K[K[K[K[Kexampol[K[K[Kple
+[?1h=
+[33mcommit d41eaaed281ae76ae716bfe6d47cd257059d06ce[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:13:36 2024 +0530[m
+[m
+    commit without staging[m
+[m
+[33mcommit bda25567a66a30b5dcd77f060eed003e62c8a29b[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 13:09:24 2024 +0530[m
+[m
+    Story 2: tamlep git session[m
+[m
+[33mcommit 5eef25f312a5146dede58f7a38efaffc2884b331[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Wed Oct 2 18:18:35 2024 +0530[m
+[m
+    intermidiate commit for module_1[m
+
+[K[?1l>bash-3.2$ git log -S function_name
+[?1h=
+
+[K[?1l>bash-3.2$ git log -- module_1/ [Kass[K[K[K[K[K[K[K[K[K[K[K[Ktamplep/module_1/assignment_1/minoi[K[Kiconda
+[?1h=
+
+[K[?1l>bash-3.2$ git log -- tamplep/module_1/assignment_1/miniconda[1Plep/module_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1h=
+
+[K[?1l>bash-3.2$ git log -- tamlep/module_1/assignment_1/miniconda[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Podule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pmodule_1/assignment_1/miniconda
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1h=
+
+[K[?1l>bash-3.2$ git log -- module_1/assignment_1/miniconda[C/miniconda_script
+[?1h=
+
+[K[?1l>bash-3.2$ fit[K[K[Kgit log --[r[K[Kpretty="%h - %s [K" --author='sushantpargaonkar-ta' --since="2024-10-[K[K[K2[K01-10\[C[C[C[C[K \
+> --before [K="2029[K4=03[K[K[K=[K-03-10[C"[Cgit log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \
+[C[C--before="2024-03-10"[K
+[C[Cgit log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \[C" \[C[C
+> git log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \
+
+git log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10" \[A
+[C[C[K
+
+[K[A[C[Cgit log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \
+
+git log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10" \[A
+[C[C[C[C[C[C[C[C[C[C[C[C[21P module_1/assignment_1/miniconda/miniconda_script
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/miniconda_script
+[C[C[C[C[C[C[C[C[C[C[C[Cpretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \
+
+git log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10" \[A
+[C[C[K
+
+[K[A[C[Cbefore [K="2024-03-10" --no-merges --t/
+> 
+> 
+> q[Kgit log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10 \
+
+git log --pretty="%h - %s" --author='sushantpargaonkar-ta' --since="2024-01-10" \
+
+before="2024-03-10" --no-merges --t/
+
+
+q
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ ls
+CONTRIBUTING.md	README		git_script.txt
+bash-3.2$ echo "\n THis [K[K[K[Khis is to h[Kcheck how to undo commits" >> CONTRIBUTING.md [K
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   CONTRIBUTING.md[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add CONTRIBUTING.md [K
+bash-3.2$ git commit -m "this is initial commit message"
+[main 415ad8a] this is initial commit message
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git add CONTRIBUTING.md [K
+bash-3.2$ git como[Kmit --amend
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;65r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[65;1H"/Volumes/Passport/Company/TAMLEP/tamlep/.git/COMMIT_EDITMSG" 22L, 548B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis is initial commit message[2;1H[K[3;1H# Please enter the commit message for your changes. Lines starting[3;67H[K[4;1H# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Oct 3 16:47:24 2024 +0530
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#[7Cmodified:   CONTRIBUTING.md
+#
+# Changes not staged for commit:
+#[7Cmodified:   ../../.DS_Store
+#[7Cmodified:   git_script.txt
+#
+# Untracked files:
+#[7C../../../.DS_Store
+#[7C../.DS_Store
+#
+[94m~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [57;1H~                                                                                                                    [58;1H~                                                                                                                    [59;1H~                                                                                                                    [60;1H~                                                                                                                    [61;1H~                                                                                                                    [62;1H~                                                                                                                    [63;1H~                                                                                                                    [64;1H~                                                                                                                    [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1Hthis is initial commit message
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Oct 3 16:47:24 2024 +0530
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#[7Cmodified:   CONTRIBUTING.md
+#
+# Changes not staged for commit:
+#[7Cmodified:   ../../.DS_Store
+#[7Cmodified:   git_script.txt
+#
+# Untracked files:
+#[7C../../../.DS_Store
+#[7C../.DS_Store
+#
+[94m~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [57;1H~                                                                                                                    [58;1H~                                                                                                                    [59;1H~                                                                                                                    [60;1H~                                                                                                                    [61;1H~                                                                                                                    [62;1H~                                                                                                                    [63;1H~                                                                                                                    [64;1H~                                                                                                                    [m[65;1H"/Volumes/Passport/Company/TAMLEP/tamlep/.git/COMMIT_EDITMSG" 22L, 548B[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H
+[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1Hthis is initial commit messag
+[1;30H
+[3;17H[4;17H
+[6;17H
+[8;16H[9;17H[10;17H
+[12;17H[13;17H
+[15;17H[16;17H[17;17H
+[19;17H[20;17H[21;17H
+[?25l[21;1H[94m~                                                                                                                    [22;1H~                                                                                                                    [20;1H[?25h[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[m[65;1H[1m-- INSERT --[m[65;13H[K[1;2H[?25h[?25ljhis is initial commit message
+tj[?25h[?25lhhis is initial commit message
+tjh[?25h[?25lis is initial commit message[1;32H[K[1;3H[?25h[?25lhis is initial commit message[1;31H[K[1;2H[?25hhi[?25ls is initial commit message[1;30H[K[1;3H[?25h[?25ls is initial commit message[1;29H[K[1;2H[?25hs is initial commit message[?25l[1;28H[K[1;28H[?25h[?25l[1;27H[K[1;27H[?25h[?25l[1;26H[K[1;26H[?25h[?25l[1;25H[K[1;25H[?25h[?25l[1;24H[K[1;24H[?25h[?25l[1;23H[K[1;23H[?25h[?25l[1;22H[K[1;22H[?25h[?25l[?25h[?25l[1;20H[K[1;20H[?25h[?25l[1;19H[K[1;19H[?25h[?25l[1;18H[K[1;18H[?25h[?25l[1;17H[K[1;17H[?25h[?25l[1;16H[K[1;16H[?25h[?25l[1;15H[K[1;15H[?25h[?25l[?25h[?25l[1;13H[K[1;13H[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[1;10H[K[1;10H[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[?25h[?25l[1;2H[K[1;2H[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25ld[?25h[?25li[?25h[?25lf[?25h[?25li[?25h[?25le[?25h[?25ld[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25li[?25h[?25lu[?25h[?25lt[?25h[?25l[1;24H[K[1;24H[?25h[?25l[1;23H[K[1;23H[?25h[?25l[1;22H[K[1;22H[?25h[?25lt[?25h[?25l[1;22H[K[1;22H[?25h[?25li[?25h[?25lt[?25h[?25l [?25h[?25lm[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25la[?25h[?25lg[?25h[?25le[?25h[?25l [?25h[?25lc[?25h[?25lh[?25h[?25la[?25h[?25ln[?25h[?25lg[?25h[?25le[?25h[?25ld[?25h[?25l [?25h[?25lu[?25h[?25ls[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25la[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25ld[?25h[?25l [?25h[?25l[?25h[?25l[65;4H[1m(insert)- --[1;51H[?25h[?25l[65;4HINSERTt --[m[65;13H[K[1;52H[?25h
+[4;52H[6;43H
+#[8;17H[9;52H[8;17H[7;2H[6;43H[5;2H[4;52H[3;52H[2;1H[?25lq[?25h[?25l[2;1H[K[2;1H[?25h
+
+
+
+[?25lq# Date:      Thu Oct 3 16:47:24 2024 +0530
+q[?25h[?25l# Date:      Thu Oct 3 16:47:24 2024 +0530[6;43H[K[6;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[65;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[20;1H[?25h[?25l[65;4HINSERTe --^[m[65;13H[K[65;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[20;1H[?25h[?25l[65;4HINSERTe --^[m[65;13H[K[20;1H[K[21;1H#       ../../../.DS_Store[21;27H[K[21;1H[?25h[?25l[38;5;81m^Z[m#[?25h[?25l[65;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[21;3H[?25h[?25l[65;4HINSERTe --^[m[65;13H[K[65;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[21;3H[?25h[?25l[m[65;1H[97m[41mE764: Option 'omnifunc' is not set[m[1mU[m[65;35H[K[65;1H[1m-- ^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[21;3H[?25h[?25l[65;4HINSERTe --^[m[65;13H[K[65;1H[K[21;1H#  [65;1H[1m-- INSERT --[21;1H[?25h[m#[7C../../../.DS_Store[?25l¯[?25h[?25l[21;27H[K[21;27H[?25h[65;1H[K[21;26H[?25l[?25h[20;1H[19;18H[18;1H[17;26H[16;26H[15;26H[14;1H[13;26H[12;26H[11;1H[10;26H[9;26H[8;16H[7;1H[6;26H[5;1H[4;26H[3;26H[2;1H[1;26H
+[3;26H[4;26H
+[6;26H
+[8;16H[9;26H[10;26H
+[12;26H[13;26H
+[15;26H[16;26H[17;26H
+[19;18H
+[21;26H[?25l[65;1H:[?25hwq
+[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 21L, 553B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m
+[Kerror: there was a problem with the editor 'vi'
+Please supply the message using either -m or -F option.
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git log -1
+[?1h=
+[33mcommit 415ad8a652ac1c3db39453fde951c43e346527ee[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 16:47:24 2024 +0530[m
+[m
+    this is initial commit message[m
+
+[K[?1l>bash-3.2$ git log -1statuscommit --amendadd CONTRIBUTING.md
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pcommit --amend
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;65r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[65;1H"/Volumes/Passport/Company/TAMLEP/tamlep/.git/COMMIT_EDITMSG" 22L, 548B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hthis is initial commit message[2;1H[K[3;1H# Please enter the commit message for your changes. Lines starting[3;67H[K[4;1H# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Oct 3 16:47:24 2024 +0530
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#[7Cmodified:   CONTRIBUTING.md
+#
+# Changes not staged for commit:
+#[7Cmodified:   ../../.DS_Store
+#[7Cmodified:   git_script.txt
+#
+# Untracked files:
+#[7C../../../.DS_Store
+#[7C../.DS_Store
+#
+[94m~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [57;1H~                                                                                                                    [58;1H~                                                                                                                    [59;1H~                                                                                                                    [60;1H~                                                                                                                    [61;1H~                                                                                                                    [62;1H~                                                                                                                    [63;1H~                                                                                                                    [64;1H~                                                                                                                    [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1Hthis is initial commit message
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Oct 3 16:47:24 2024 +0530
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#[7Cmodified:   CONTRIBUTING.md
+#
+# Changes not staged for commit:
+#[7Cmodified:   ../../.DS_Store
+#[7Cmodified:   git_script.txt
+#
+# Untracked files:
+#[7C../../../.DS_Store
+#[7C../.DS_Store
+#
+[94m~                                                                                                                    [24;1H~                                                                                                                    [25;1H~                                                                                                                    [26;1H~                                                                                                                    [27;1H~                                                                                                                    [28;1H~                                                                                                                    [29;1H~                                                                                                                    [30;1H~                                                                                                                    [31;1H~                                                                                                                    [32;1H~                                                                                                                    [33;1H~                                                                                                                    [34;1H~                                                                                                                    [35;1H~                                                                                                                    [36;1H~                                                                                                                    [37;1H~                                                                                                                    [38;1H~                                                                                                                    [39;1H~                                                                                                                    [40;1H~                                                                                                                    [41;1H~                                                                                                                    [42;1H~                                                                                                                    [43;1H~                                                                                                                    [44;1H~                                                                                                                    [45;1H~                                                                                                                    [46;1H~                                                                                                                    [47;1H~                                                                                                                    [48;1H~                                                                                                                    [49;1H~                                                                                                                    [50;1H~                                                                                                                    [51;1H~                                                                                                                    [52;1H~                                                                                                                    [53;1H~                                                                                                                    [54;1H~                                                                                                                    [55;1H~                                                                                                                    [56;1H~                                                                                                                    [57;1H~                                                                                                                    [58;1H~                                                                                                                    [59;1H~                                                                                                                    [60;1H~                                                                                                                    [61;1H~                                                                                                                    [62;1H~                                                                                                                    [63;1H~                                                                                                                    [64;1H~                                                                                                                    [m[65;1H"/Volumes/Passport/Company/TAMLEP/tamlep/.git/COMMIT_EDITMSG" 22L, 548B[1;1H[?25hthis is initial commit messagssag [?25l[65;1H[1m-- INSERT --[m[65;13H[K[1;8Hinitial commit message[1;30H[K[1;8H[?25h[?25lainitial commit message[1;9H[?25h[?25lninitial commit message[1;10H[?25h[?25lfinitial commit message[1;11H[?25h[?25linitial commit message[1;32H[K[1;10H[?25h[?25linitial commit message[1;31H[K[1;9H[?25h[?25linitial commit message[1;30H[K[1;8H[?25h[?25l initial commit message[1;9H[?25h[?25lcinitial commit message[1;10H[?25h[?25lhinitial commit message[1;11H[?25h[?25lainitial commit message[1;12H[?25h[?25lninitial commit message[1;13H[?25h[?25lginitial commit message[1;14H[?25h[?25leinitial commit message[1;15H[?25h[?25ldinitial commit message[1;16H[?25h[?25l initial commit message[1;17H[?25hinitial commit message[65;1H[K[1;38H[?25l[?25h[?25l[65;1H:[?25hwq
+[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 22L, 556B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m
+[K[main dce342e] this is changed initial commit message
+ Date: Thu Oct 3 16:47:24 2024 +0530
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git commit --amend[8Plog -1
+[?1h=
+[33mcommit dce342e55dce7787ecc9f718ee93fc1a76db254c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: sushantpargaonkar-ta <sushant.pargaonk@tigeranalytics.com>[m
+Date:   Thu Oct 3 16:47:24 2024 +0530[m
+[m
+    this is changed initial commit message[m
+
+[K[?1l>bash-3.2$ echo "/\[K\[K[K\Un[K[KC[K Checking [K[K[K[K[K[K[K[K[KI[KUnstagfin[K[K[King a Staged file"[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+\n Unstaging a Staged file
+bash-3.2$ echo "\n Unstaging a Staged file" >> CONTRIBUTING.md 
+bash-3.2$ touch fine[K[Kle_2.md
+bash-3.2$ echo "** T[K[K[K This is to check mu[K[K[K[K[K[K[K[K[K[K[Kanother example fo[Kile" >> file_2.md [K
+bash-3.2$ ls
+CONTRIBUTING.md	README		file_2.md	git_script.txt
+bash-3.2$ git add *
+bash-3.2$ git statuys[K[Ks
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   CONTRIBUTING.md[m
+	[32mnew file:   file_2.md[m
+	[32mmodified:   git_script.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+
+bash-3.2$ git reset file_2.md [KHfile_2.mdEfile_2.mdAfile_2.mdDfile_2.md file_2.md[C[C[C[C[C[C[C[C[C
+Unstaged changes after reset:
+M	module_1/.DS_Store
+M	module_1/assignment_1/git/git_script.txt
+bash-3.2$ goit[K[K[Kit status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   CONTRIBUTING.md[m
+	[32mmodified:   git_script.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mfile_2.md[m
+
+bash-3.2$ git statusreset HEAD file_2.md[K[K[K[K[K[K[K[K[KCONTRIBUTING.md [K
+Unstaged changes after reset:
+M	module_1/.DS_Store
+M	module_1/assignment_1/git/CONTRIBUTING.md
+M	module_1/assignment_1/git/git_script.txt
+bash-3.2$ git reset HEAD CONTRIBUTING.md
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   git_script.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.DS_Store[m
+	[31mmodified:   CONTRIBUTING.md[m
+	[31mmodified:   git_script.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mfile_2.md[m
+
+bash-3.2$ git statusreset HEAD CONTRIBUTING.md
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kreset HEAD file_2.md
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K[1Padd *
