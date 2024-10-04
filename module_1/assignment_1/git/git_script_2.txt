@@ -1,0 +1,640 @@
+Script started on Thu Oct  3 18:45:27 2024
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ ls
+CONTRIBUTING.md		file_2.md		git_script.txt
+README			git_script copy.txt	typescript
+bash-3.2$ echo "2[K3.1 Git branching"
+3.1 Git branching
+bash-3.2$ git branch
+[?1h=* [32m(no branch, rebasing version2)[m[m
+  main[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git branch teston[K[King
+bash-3.2$ git branch
+[?1h=* [32m(no branch, rebasing version2)[m[m
+  main[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git long --oneline --decorage[K[Kte
+git: 'long' is not a git command. See 'git --help'.
+
+The most similar commands are
+	clone
+	log
+bash-3.2$ git long --oneline --decorate[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1h=[33me4c11b0[m[33m ([m[1;36mHEAD[m[33m, [m[1;32mtesting[m[33m)[m intermidiate save[m
+[33mdce342e[m this is changed initial commit message[m
+[33md41eaae[m commit without staging[m
+[33mbda2556[m Story 2: tamlep git session[m
+[33m3c2a4ad[m initial git recorded session version[m
+[33m33bf53d[m added miniconda recorded session[m
+[33me6c1a45[m reorganised codebase[m
+[33ma8ef032[m unix-shell tutorial internal question[m
+[33m494344f[m Recorded session for Unix shell tutorial[m
+[33m5eef25f[m intermidiate commit for module_1[m
+[33m84a7fcf[m initial commit[m
+[33mc203097[m Initial commit[m
+[K[?1l>bash-3.2$ git checkout testing
+D	module_1/assignment_1/git/git_script.txt
+Switched to branch 'testing'
+bash-3.2$ git [K[K[K[Kgit checkout testing[C[C[C[C[C[C[C[C[C[C[C[C[C[Clog --oneline --decorate
+[?1h=[33me4c11b0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtesting[m[33m)[m intermidiate save[m
+[33mdce342e[m this is changed initial commit message[m
+[33md41eaae[m commit without staging[m
+[33mbda2556[m Story 2: tamlep git session[m
+[33m3c2a4ad[m initial git recorded session version[m
+[33m33bf53d[m added miniconda recorded session[m
+[33me6c1a45[m reorganised codebase[m
+[33ma8ef032[m unix-shell tutorial internal question[m
+[33m494344f[m Recorded session for Unix shell tutorial[m
+[33m5eef25f[m intermidiate commit for module_1[m
+[33m84a7fcf[m initial commit[m
+[33mc203097[m Initial commit[m
+[K[?1l>bash-3.2$ vim test.rb
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test.rb" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"test.rb" [New][1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25la[?25h[?25l[1;1H[K[1;1H[?25h[?25ls[?25h[?25l[1;1H[K[1;1H[?25h[?25lr[?25h[?25lh[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25lT[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25l [?25h[?25lb[?25h[?25la[?25h[?25l[1;27H[K[1;27H[?25h[?25la[?25h[?25l[1;27H[K[1;27H[?25h[?25lr[?25h[?25la[?25h[?25ln[?25h[?25lc[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[24;1H[K[1;34H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"test.rb" [New] 1L, 35B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git[K [Kt commit -1 [K[Ka -m "make a change"
+[testing ba19b3e] make a change
+ 1 file changed, 118325 deletions(-)
+ delete mode 100644 module_1/assignment_1/git/git_script.txt
+bash-3.2$ git status
+On branch testing
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ cgit statusc[Klear
+[H[2J[3Jbash-3.2$ git status
+On branch testing
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git ce[Kje[K[Kheckout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+bash-3.2$ g[Kgit checkout main[7Pstatus[5Pcleargit statuscommit -a -m "make a change"[C[C[C[C[C[C[C[C[C[C[21Pvim test.rbgit log --oneline --decorate
+[?1h=[33m788d6c9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m this is changed init[m [33m[m[33m[m[1;36m[m[33m[m[1;32m[m[33m[m[1;33m[m[1;33m[m[33m[m[1;31m[m[33m[m[1;31m[m[33m[mial commit message[m
+[33m82d1880[m commit without staging[m
+[33md0adf81[m Story 2: tamlep git session[m
+[33m15f0e76[m[33m ([m[1;33mtag: [m[1;33mv0.2[m[33m)[m added miniconda recorded session[m
+[33m47ce068[m reorganised codebase[m
+[33m58e9feb[m unix-shell tutorial internal question[m
+[33m85c42fc[m Recorded session for Unix shell tutorial[m
+[33mcc64143[m intermidiate commit for module_1[m
+[33md23b688[m initial commit[m
+[33m16f0d9a[m Initial commit[m
+[K[?1l>bash-3.2$ vim [K[K[K[Kvim test.rb [K
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"test.rb" 1L, 35B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HThis a test file to test branching
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1HThis a test file to test branching
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"test.rb" 1L, 35B[1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[K[2;1HThis a test file to test branching[2;35H[K[1;1H[?25h[?25lT[?25h[?25lh[?25h[?25le[?25h[?25lr[?25h[?25l [?25h[?25lc[?25h[?25lh[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25lg[?25h[?25le[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25lA[?25h[?25ln[?25h[?25lo[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25lr[?25h[?25l [?25h[?25lc[?25h[?25lh[?25h[?25la[?25h[?25lg[?25h[?25ln[?25h[?25le[?25h[?25ls[?25h[24;1H[K[1;15H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"test.rb" 2L, 51B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git cmo[K[Kommit -a -m :[K"Mak[K[Kake to[K[Kother chag[K[Kanges"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git log --oneline --decoa[Krate --graph --all
+[?1h=* [33mba19b3e[m[33m ([m[1;32mtesting[m[33m)[m make a change[m
+[31m|[m *   [33m8adde23[m WIP on version2: ec6ef0d removed secrets and updated file[m
+[31m|[m [32m|[m[33m\[m  [m
+[31m|[m [32m|[m * [33me269a10[m index on version2: ec6ef0d removed secrets and updated file[m
+[31m|[m [32m|[m[32m/[m  [m
+[31m|[m * [33mec6ef0d[m removed secrets and updated file[m
+[31m|[m[31m/[m  [m
+* [33me4c11b0[m intermidiate save[m
+* [33mdce342e[m this is changed initial commit message[m
+* [33md41eaae[m commit without staging[m
+* [33mbda2556[m Story 2: tamlep git session[m
+* [33m3c2a4ad[m initial git recorded session version[m
+* [33m33bf53d[m added miniconda recorded session[m
+* [33me6c1a45[m reorganised codebase[m
+* [33ma8ef032[m unix-shell tutorial internal question[m
+* [33m494344f[m Recorded session for Unix shell tutorial[m
+* [33m5eef25f[m intermidiate commit for module_1[m
+* [33m84a7fcf[m initial commit[m
+* [33mc203097[m Initial commit[m
+* [33m43a1943[m[33m ([m[1;35mrefs/stash[m[33m)[m WIP on version2: ec6ef0d removed secrets and updated file[m
+* [33m80e640c[m[33m ([m[1;31morigin/version2[m[33m, [m[1;32mversion2[m[33m)[m removed secrets and updated file[m
+* [33m3a323c0[m intermidiate save[m
+* [33m788d6c9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m this is changed in[m :[K[K:[K[K:[K[K[?1l>bash-3.2$ git branch iss53
+bash-3.2$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ i[Kgit s[Kcheckout iss53
+Switched to branch 'iss53'
+bash-3.2$ vim ht[K[Kindex.html
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"index.html" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"index.html" [New][1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[1;1H[?25h[?25ls[?25h[?25l[1;1H[K[1;1H[?25h[?25l#[?25h[?25l [?25h[?25lc[?25h[?25l[1;3H[K[1;3H[?25h[?25ls[?25h[?25li[?25h[?25lm[?25h[?25ln[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25lo[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25lo[?25h[?25lm[?25h[?25le[?25h[?25l [?25h[?25lc[?25h[?25lh[?25h[?25la[?25h[?25ln[?25h[?25lg[?25h[?25le[?25h[?25ls[?25h[24;1H[K[1;14H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"index.html" [New] 1L, 15B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git commit -1 -m "create new footer []i]s]s]u]e] ]5]3][C"
+error: unknown switch `1'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+bash-3.2$ git commit -1 -m "create new footer [issue 53]"[1P[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch iss53
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mindex.html[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git add index.html [K
+bash-3.2$ git add index.htmlcommit -a -m "create new footer [issue 53]"
+[iss53 c92445d] create new footer [issue 53]
+ 1 file changed, 1 insertion(+)
+ create mode 100644 module_1/assignment_1/git/index.html
+bash-3.2$ git commit -a -m "create new footer [issue 53]"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd index.html[Kcommit -a -m "create new footer [issue 53]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvim index.html[K[C[C[C[C[C[C[C[C[C[Cgit checkout iss53[C[C[C[C[C[C[C[C[C[C[4Pvim index.html[C[C[C[C[C[C[C[C[C[Cgit commit -1 -m "create new footer [issue 53]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd index.html[Kcommit -a -m "create new footer [issue 53]"[C[C[C[C[C[C[C[C[C[C[Kstat[K[K[K[Kgot[K[Kit status
+On branch iss53
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+bash-3.2$ git checkout -b hotfix
+Switched to a new branch 'hotfix'
+bash-3.2$ vim index.html [K
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"index.html" 1L, 15B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H# some changes
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1H# some changes
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"index.html" 1L, 15B[1;1H[?25h# [?25l[24;1H[1m-- INSERT --[m[24;14H[K[1;2Hsome changes[1;14H[K[1;2H[?25hsome[?25l  changes[1;7H[?25h[?25lm changes[1;8H[?25h[?25lo changes[1;9H[?25h[?25lr changes[1;10H[?25h[?25le changes[1;11H[?25h[?25l  changes[1;12H[?25h[24;1H[K[1;11H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"index.html" 1L, 20B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git commit -1 0[K[K[Ka- [K[K -m "Fix broken email address"
+[hotfix bc6c5a8] Fix broken email address
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+bash-3.2$ git merge hotfix
+Updating 788d6c9..bc6c5a8
+Fast-forward
+ module_1/assignment_1/git/index.html | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 module_1/assignment_1/git/index.html
+bash-3.2$ got[K[Kit branch
+[?1h=  hotfix[m[m
+  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git[K[K[Kc[Kgit branch -d hotfix
+Deleted branch hotfix (was bc6c5a8).
+bash-3.2$ f[Kgit branch -d hotfix[K
+[?1h=  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ gt[Kit[K[K[Kgit checkout iss53
+Switched to branch 'iss53'
+bash-3.2$ vim index.html [K
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"index.html" 1L, 15B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H# some changes
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1H# some changes
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"index.html" 1L, 15B[1;1H[?25h# some change[?25l[24;1H[1m-- INSERT --[m[24;14H[K[1;15H[?25h[?25l [?25h[?25lr[?25h[?25lo[?25h[?25l[1;17H[K[1;17H[?25h[?25l[1;16H[K[1;16H[?25h[?25lt[?25h[?25lo[?25h[?25lb[?25h[?25le[?25h[?25l[1;19H[K[1;19H[?25h[?25l[1;18H[K[1;18H[?25h[?25l [?25h[?25lb[?25h[?25le[?25h[?25l [?25h[?25l[?25h[?25l[1;20H[K[1;20H[?25h[?25l[1;19H[K[1;19H[?25h[?25l[?25h[?25l[1;17H[K[1;17H[?25h[?25l[1;16H[K[1;16H[?25h[?25l[?25h[?25l[2;1H[K[2;1H[?25h[?25l#[?25h[?25l [?25h[?25lC[?25h[?25lo[?25h[?25ln[?25h[?25lt[?25h[?25li[?25h[?25ln[?25h[?25lu[?25h[?25le[?25h[?25l [?25h[?25lw[?25h[?25lo[?25h[?25lk[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25ls[?25h[?25ls[?25h[?25l[2;26H[K[2;26H[?25h[?25l5[?25h[?25l3[?25h[24;1H[K[2;27H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"index.html" 2L, 43B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git checkou [Kt main
+error: Your local changes to the following files would be overwritten by checkout:
+	module_1/assignment_1/git/index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+bash-3.2$ git branch
+[?1h=* [32miss53[m[m
+  main[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git check[K[K[K[K[Kstatus
+On branch iss53
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'version2' on 'bda2556'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git commit -1 -m [K[K[K[K[Ka -m [K "Finished iss[K[K[K[K[K[K[K[K[K[K[K[Krev[Ksolved iss53"
+[iss53 3e27153] resolved iss53
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git cehc[K[K[Khecl[Kkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+bash-3.2$ git branch
+[?1h=  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git merge iss53
+Auto-merging module_1/assignment_1/git/index.html
+CONFLICT (content): Merge conflict in module_1/assignment_1/git/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+bash-3.2$ git brancjh [K[K[Kh 0d[K[K-d iss53
+error: the branch 'iss53' is not fully merged
+[33mhint: If you are sure you want to delete it, run 'git branch -D iss53'[m
+[33mhint: Disable this message with "git config advice.forceDeleteBranch false"[m
+bash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff nvimdiff
+Merging:
+module_1/assignment_1/git/index.html
+
+Normal merge conflict for 'module_1/assignment_1/git/index.html':
+  {local}: modified file
+  {remote}: modified file
+Hit return to start merge resolution tool (vimdiff): 
+4 files to edit
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"./module_1/assignment_1/git/index_LOCAL_40229.html" 1L, 20B[24;36HBASE_40229.html" [24;54H[K[24;53H1L, 15B[24;36HREMOTE_40229.html" [24;55H[K[24;55H2L, 43B"module_1/assignment_1/git/index.html" [24;40H[K[24;40H6L, 98B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m[48;5;248m  [m[1m[101m#some more  changes[m[48;5;225m     [m[7m|[2;27H|[3;27H|[4;27H|[5;27H|[6;27H|[7;27H|[8;27H|[9;27H|[10;27H|[11;27H|[m[2;1H[34m[48;5;248m  
+  
+  
+  
+  [m[2;3H[94m[48;5;159m------------------------[3;3H------------------------[4;3H------------------------[5;3H------------------------[6;3H------------------------[m
+[94m~                         
+~                         
+~                         
+~                         
+~                         [m
+[7m<t/index_LOCAL_40229.html  [m[1;28H[34m[48;5;248m  [m[1m[101m# some changes[m[48;5;225m          [m[7m|[2;54H|[3;54H|[4;54H|[5;54H|[6;54H|[7;54H|[8;54H|[9;54H|[10;54H|[11;54H|[m[2;28H[34m[48;5;248m  [3;28H  [4;28H  [5;28H  [6;28H  [m[2;30H[94m[48;5;159m------------------------[3;30H------------------------[4;30H------------------------[5;30H------------------------[6;30H------------------------[m[7;28H[94m~                         [8;28H~                         [9;28H~                         [10;28H~                         [11;28H~                         [m[12;28H[7m<it/index_BASE_40229.html  [m[1;55H[34m[48;5;248m  [m[1m[101m# some changes[m[48;5;225m          [m[2;55H[34m[48;5;248m  [m[48;5;225m#[m[1m[101m Continue wokring on is[m[3;55H[34m[48;5;248m  [4;55H  [5;55H  [6;55H  [m[3;57H[94m[48;5;159m------------------------[4;57H------------------------[5;57H------------------------[6;57H------------------------[m[7;55H[94m~                         [8;55H~                         [9;55H~                         [10;55H~                         [11;55H~                         [m[12;55H[7m</index_REMOTE_40229.html [m[13;1H[34m[48;5;248m  [m[1m[101m<<<<<<< HEAD[m[48;5;225m                                                                  [m[14;1H[34m[48;5;248m  [m[48;5;225m#[m[1m[101msome more  changes[m[48;5;225m                                                           [m[15;1H[34m[48;5;248m  [m[48;5;81m=======                                                                       [m[16;1H[34m[48;5;248m  [m[48;5;81m# some changes                                                                [m[17;1H[34m[48;5;248m  [m[48;5;81m# Continue wokring on iss53                                                   [m[18;1H[34m[48;5;248m  [m[48;5;81m>>>>>>> iss53                                                                 [m[19;1H[94m~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;1H[1m[7mmodule_1/assignment_1/git/index.html                                            [13;3H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[96m[48;5;242m  [m[1m[101m#some more  changes[m[45m     [m[7m|[2;27H|[3;27H|[4;27H|[5;27H|[6;27H|[7;27H|[8;27H|[9;27H|[10;27H|[11;27H|[m[2;1H[96m[48;5;242m  
+  
+  
+  
+  [m[2;3H[94m[46m------------------------[3;3H------------------------[4;3H------------------------[5;3H------------------------[6;3H------------------------[m
+[94m~                         
+~                         
+~                         
+~                         
+~                         [m
+[7m<t/index_LOCAL_40229.html  [m[1;28H[96m[48;5;242m  [m[1m[101m# some changes[m[45m          [m[7m|[2;54H|[3;54H|[4;54H|[5;54H|[6;54H|[7;54H|[8;54H|[9;54H|[10;54H|[11;54H|[m[2;28H[96m[48;5;242m  [3;28H  [4;28H  [5;28H  [6;28H  [m[2;30H[94m[46m------------------------[3;30H------------------------[4;30H------------------------[5;30H------------------------[6;30H------------------------[m[7;28H[94m~                         [8;28H~                         [9;28H~                         [10;28H~                         [11;28H~                         [m[12;28H[7m<it/index_BASE_40229.html  [m[1;55H[96m[48;5;242m  [m[1m[101m# some changes[m[45m          [m[2;55H[96m[48;5;242m  [m[45m#[m[1m[101m Continue wokring on is[m[3;55H[96m[48;5;242m  [4;55H  [5;55H  [6;55H  [m[3;57H[94m[46m------------------------[4;57H------------------------[5;57H------------------------[6;57H------------------------[m[7;55H[94m~                         [8;55H~                         [9;55H~                         [10;55H~                         [11;55H~                         [m[12;55H[7m</index_REMOTE_40229.html [m[13;1H[96m[48;5;242m  [m[1m[101m<<<<<<< HEAD[m[45m                                                                  [m[14;1H[96m[48;5;242m  [m[45m#[m[1m[101msome more  changes[m[45m                                                           [m[15;1H[96m[48;5;242m  [m[44m=======                                                                       [m[16;1H[96m[48;5;242m  [m[44m# some changes                                                                [m[17;1H[96m[48;5;242m  [m[44m# Continue wokring on iss53                                                   [m[18;1H[96m[48;5;242m  [m[44m>>>>>>> iss53                                                                 [m[19;1H[94m~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;1H[1m[7mmodule_1/assignment_1/git/index.html                                            [m[24;1H"module_1/assignment_1/git/index.html" 6L, 98B[13;3H[?25h[?25l[?25h[?4m[?25l[14;3H[?25h[?25l[13;3H[?25h[?25l[14;3H[?25h[?25l[13;3H[?25h[?25l[14;3H[?25h[?25l[15;3H[?25h[?25l[16;3H[?25h[?25l[17;3H[?25h[?25l[18;3H[?25h[?25l[24;1H[K[24;1H:[?25h[?25lwq[?25h[?25l[24;2H[K[24;2H[?25h [18;3H[?25l[17;3H[?25h[?25l[16;3H[?25h[?25l[15;3H[?25h[?25l[14;3H[?25h[?25l[13;3H[?25h[?25l[14;3H[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[1C[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[24;1H[1m-- INSERT --[m[14;14H[1m[101mchanges[m[45m  [m[23;38H[1m[7m[+][14;13H[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[1C[?25l[?25h[15;10H[?25l[?25h[14;21H[?25l[?25h[15;10H[?25l[?25h[16;17H[?25l[?25h[?25l[m[44m:[?25h[?25l [?25h[m[24;1H[K[16;16H[?25l[?25h[?25l[24;1H:[?25hwq[?25l"module_1/assignment_1/git/index.html" 6L, 97B written[12;27H[7m|[13;27H|[14;27H|[15;27H|[16;27H|[17;27H|[18;27H|[19;27H|[20;27H|[21;27H|[22;27H|[m[12;1H[94m~                         
+~                         
+~                         
+~                         
+~                         
+~                         
+~                         [m[23;1H[1m[7m<t/index_LOCAL_40229.html/  n[m[12;54H[7m|[13;54H|[14;54H|[15;54H|[16;54H|[17;54H|[18;54H|[19;54H|[20;54H|[21;54H|[22;54H|[m[12;28H[94m~                         [13;28H~                         [14;28H~                         [15;28H~                         [16;28H~                         [17;28H~                         [18;28H~                         [19;28H~[20;28H~[21;28H~[22;28H~[m[23;28H[7m<it/index_BASE_40229.html  [m[12;55H[94m~                         [13;55H~                         [14;55H~                         [15;55H~                         [16;55H~                         [17;55H~                         [18;55H~                         [19;55H~[20;55H~[21;55H~[22;55H~[m[23;55H[7m</index_REMOTE_40229.html [1;16H[?25h[?25l[m[24;1H[K[24;1H:[?25hq[?25l[1;4H[1m[101m some changes[m[45m                        [m[7m|[2;41H|[3;41H|[4;41H|[5;41H|[6;41H|[7;41H|[8;41H|[9;41H|[10;41H|[11;41H|[12;41H|[13;41H|[14;41H|[15;41H|[16;41H|[17;41H|[18;41H|[19;41H|[20;41H|[21;41H|[22;41H|[m[2;27H[94m[46m---[3;27H---[4;27H---[5;27H---[6;27H---[m[7;27H[94m   [8;27H   [9;27H   [10;27H   [11;27H   [12;27H   [13;27H   [14;27H   [15;27H   [16;27H   [17;27H   [18;27H   [19;27H   [20;27H   [21;27H   [22;27H   [m[23;2H[1m[7massignment_1/git/index_BASE_40229.html  [m[1;42H[96m[48;5;242m  [m[1m[101m# some changes[m[45m              [m[2;42H[96m[48;5;242m  [m[45m#[m[1m[101m Continue wokring on iss53[m[45m          [m[3;42H[96m[48;5;242m  [4;42H  [5;42H  [6;42H  [m[3;54H[94m[46m---[4;54H---[5;54H---[6;54H---[m[7;42H[94m~[11C   [8;42H~[11C   [9;42H~[11C   [10;42H~[11C   [11;42H~[11C   [12;42H~[11C   [13;42H~[11C   [14;42H~[11C   [15;42H~[11C   [16;42H~[11C   [17;42H~[11C   [18;42H~[11C   [19;42H~[11C   [20;42H~[11C   [21;42H~[11C   [22;42H~[11C   [m[23;42H[7m<ignment_1/git[1;16H[?25h[?25l[?25h[?25l[m[24;1HType  :qa  and press <Enter> to exit Vim[1;15H[?25h[?25l[24;1H[K[24;1H:[?25hqa[?25l[?2004l[>4;m[23;2t[23;1t[24;1H[K[24;1H[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git mergetool[3Pstatusbranch -d iss53[9Pstatusbranch -d iss53
+error: the branch 'iss53' is not fully merged
+[33mhint: If you are sure you want to delete it, run 'git branch -D iss53'[m
+[33mhint: Disable this message with "git config advice.forceDeleteBranch false"[m
+bash-3.2$ git branch -d iss53[6Pmergetool[3Pstatus
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mmodified:   index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mindex.html.orig[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+bash-3.2$ vim index.html[Kl
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"index.html" 6L, 97B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H<<<<<<< HEAD
+#some more changes[2;19H[K[3;1H=======[3;8H[K[4;1H# some changes
+# Continue wokring on iss53
+>>>>>>> iss53
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[27m[23m[29m[m[H[2J[?25l[1;1H<<<<<<< HEAD
+#some more changes
+=======
+# some changes
+# Continue wokring on iss53
+>>>>>>> iss53
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H"index.html" 6L, 97B[1;1H[?25h
+
+
+
+
+>>>>>>> iss5s5[?25l[24;1H[1m-- INSERT --[m[24;14H[K[6;12H3[6;13H[K[6;12H[?25h3[?25l[6;12H[K[6;12H[?25h[?25l[6;11H[K[6;11H[?25h[?25l[6;10H[K[6;10H[?25h[?25l[6;9H[K[6;9H[?25h[?25l[?25h[?25l[6;7H[K[6;7H[?25h[?25l[6;6H[K[6;6H[?25h[?25l[6;5H[K[6;5H[?25h[?25l[6;4H[K[6;4H[?25h[?25l[6;3H[K[6;3H[?25h[?25l[6;2H[K[6;2H[?25h[?25l[6;1H[K[6;1H[?25h[?25l[94m~                                                                               [5;28H[?25h[4;15H[5;28H[4;15H[3;8H[2;19H[1;13H[?25l[m[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l[1;10H[K[1;10H[?25h[?25l[1;9H[K[1;9H[?25h[?25l[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [1;1H[?25h
+
+[?25l[2;23r[m[23;1H
+[1;24r[2;1H=======# some changes[23;1H[94m~                                                                               [2;8H[?25h[?25l[m# some changes[2;21H[K[2;7H[?25h[?25l# some changes[2;20H[K[2;6H[?25h[?25l# some changes[2;19H[K[2;5H[?25h[?25l# some changes[2;18H[K[2;4H[?25h[?25l# some changes[2;17H[K[2;3H[?25h[?25l# some changes[2;16H[K[2;2H[?25h[?25l# some changes[2;15H[K[2;1H[?25h# some changes[?25l[2;14H[K[2;14H[?25h[?25l[2;13H[K[2;13H[?25h[?25l[2;12H[K[2;12H[?25h[?25l[2;11H[K[2;11H[?25h[?25l[2;10H[K[2;10H[?25h[?25l[2;9H[K[2;9H[?25h[?25l[2;8H[K[2;8H[?25h[?25l[?25h[?25l[2;6H[K[2;6H[?25h[?25l[2;5H[K[2;5H[?25h[?25l[2;4H[K[2;4H[?25h[?25l[2;3H[K[2;3H[?25h[?25l[?25h[?25l[2;1H[K[2;1H[?25h[?25l[1;23r[23;1H
+[1;24r[1;1H#some more changes[23;1H[94m~                                                                               [1;19H[?25h[m[24;1H[K[1;18H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m"index.html" 2L, 47B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;mbash-3.2$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Last command done (1 command done):
+   pick dce342e this is changed initial commit message
+Next commands to do (2 remaining commands):
+   pick e4c11b0 intermidiate save
+   pick ec6ef0d removed secrets and updated file
+  (use "git rebase --edit-todo" to view and edit)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mmodified:   index.html[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../.DS_Store[m
+	[31m../.DS_Store[m
+	[31mbackup.txt[m
+	[31mgit_script.txt[m
+	[31mgit_script_copy.txt[m
+	[31mindex.html.orig[m
+	[31mtest.rb[m
+	[31mtypescript[m
+
+bash-3.2$ git commit -m :[K"er[K[Kremoved onf[K[K[Ko[Kconflixt[K[Kct"
+[main 4725241] removed conflict
+bash-3.2$ git [K[K[K[Kgit commit -m "removed conflict"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcommit -m "removed conflict"[C[C[C[C[C[C[C[C[C[C[Kgit commit -m "removed conflict"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kvim index.html[C[C[C[C[C[C[C[C[C[C[4Pgit statusbranch -d iss53
+Deleted branch iss53 (was 3e27153).
+bash-3.2$ git branch
+[?1h=* [32mmain[m[m
+  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git branch -v
+[?1h=* [32mmain    [m 4725241 [ahead 4] removed conflict[m
+  testing [m ba19b3e make a change[m
+  version2[m 80e640c removed secrets and updated file[m
+[K[?1l>bash-3.2$ git branch --mr[Kerged
+[?1h=* [32mmain[m[m
+[K[?1l>bash-3.2$ git branch --merged[C[Cmerged[1Pergednmergedomerged-merged[C[C[C[C[C[C
+[?1h=  testing[m[m
+  version2[m[m
+[K[?1l>bash-3.2$ git branch --move bad-branch-a[Kname [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvers[K[K[K[Ktesting testing_1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kversion2 ver[K[Kersion[K[K[K[Ksion3
+bash-3.2$ git branch
+[?1h=* [32mmain[m[m
+  testing[m[m
+  version3[m[m
+[K[?1l>bash-3.2$ git push --set0[K-upstream version3
+fatal: 'version3' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git push --set-upstream version3[C[C version3o version3r version3i version3g version3i version3n version3[C[C[C[C[C[C[C[C[C
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'version3' on GitHub by visiting:[K
+remote:      https://github.com/sushantpargaonkar-ta/tamlep/pull/new/version3[K
+remote: 
+To github.com:sushantpargaonkar-ta/tamlep.git
+ * [new branch]      version3 -> version3
+branch 'version3' set up to track 'origin/version3'.
+bash-3.2$ git branch --all
+[?1h=* [32mmain[m[m
+  testing[m[m
+  version3[m[m
+  [31mremotes/origin/HEAD[m -> origin/main[m
+  [31mremotes/origin/main[m[m
+  [31mremotes/origin/version2[m[m
+  [31mremotes/origin/version3[m[m
+[K[?1l>bash-3.2$ git push origin --delete version3
+To github.com:sushantpargaonkar-ta/tamlep.git
+ - [deleted]         version3
+bash-3.2$ echo "3.4 Git Branching - BRanc[K[K[Kr[K[Kranching Workflows"
+3.4 Git Branching - Branching Workflows
+bash-3.2$ git ls [K-remote origin
+^C
+bash-3.2$ git shoe[Kw remote
+fatal: ambiguous argument 'remote': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+bash-3.2$ echo "3.5 Gir [K[Kt nbr[K[K[Kbranching[K[K[K[Khing - Remote Branches"
+3.5 Git branching - Remote Branches
+bash-3.2$ clear
+[H[2J[3Jbash-3.2$ 
